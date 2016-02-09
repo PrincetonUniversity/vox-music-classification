@@ -69,3 +69,7 @@ target/
 *.aux
 *.log
 *.synctex.gz
+
+#BibTeX auxiliary
+*.bbl
+*.blg
