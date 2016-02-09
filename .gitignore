@@ -64,3 +64,8 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+#TeXMaker auxiliary files
+*.aux
+*.log
+*.synctex.gz
