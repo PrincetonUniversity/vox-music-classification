@@ -6,26 +6,24 @@ See `specification.pdf` for assignment specification.
 
 # Current Tasks
 
-Due date: By next meeting 2016-02-11, 3pm.
+Due date: By next meeting 2016-02-14, 7:30pm
 
 Vlad
 
-* Create a data directory / fetch script
-* Loading script with train / test division
-* Softmax on MFCC
+* Binary search classifier parameterized by a 0/1
+* SoftMax Exploratory Analysis Writeup + exploratory for MFCC on dfl settings
 
 Sid
 
-Introduction: Describe dataset, feature types, classification problem
-Previous Genre Classification Work: Find some previous work, see why it struggled, see what it says.
+* Introduction: Describe dataset, feature types, classification problem
+* Previous Classification Work: Find some previous work, see why it struggled, see what it says.
+* mSVM on FV MFCC
 
 # Long-term Tasks
 
-0. Make in-python feature extraction.
 1. Analyze richness and necessity of features: PCA look at eigenvalues. Look at sparsity.
-2. Try other classifiers: mSVM, Decision Tree (boosted?), LDA, ensemble
-3. Heierichal group-based decisions (0/1 split into easier categories - how to choose genre subsets?)
-4. Mess with Fisher Vector parameters
-5. Encode temporal data (Exemplar?)
+2. Try other classifiers: Decision Tree (boosted?), LDA, ensemble
+3. Mess with Fisher Vector parameters
+4. Our own in-python feature extraction
 
 Write up exploration, method, results, and conclusion section for above.
