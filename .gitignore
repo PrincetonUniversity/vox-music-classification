@@ -24,8 +24,6 @@ var/
 .installed.cfg
 *.egg
 
-data/*
-!data/README.md
 *~
 
 !tools/vlfeat
