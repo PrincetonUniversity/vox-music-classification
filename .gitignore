@@ -73,3 +73,5 @@ target/
 #BibTeX auxiliary
 *.bbl
 *.blg
+
+.DS_Store
