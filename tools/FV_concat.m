@@ -2,8 +2,6 @@ function FullFV = fv_all_mfc()
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FV Concatenating
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Change this to the directory containing your data folder
-% add tools path
 run('vlfeat/toolbox/vl_setup')
 [DAT, LB, FNS] = loadAll('..');
 

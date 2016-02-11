@@ -21,6 +21,7 @@ Previous Genre Classification Work: Find some previous work, see why it struggle
 
 # Long-term Tasks
 
+0. Make in-python feature extraction.
 1. Analyze richness and necessity of features: PCA look at eigenvalues. Look at sparsity.
 2. Try other classifiers: mSVM, Decision Tree (boosted?), LDA, ensemble
 3. Heierichal group-based decisions (0/1 split into easier categories - how to choose genre subsets?)
