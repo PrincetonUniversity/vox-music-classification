@@ -20,5 +20,6 @@ GENDATA.classnames = {'Blues', 'Classical', 'Country', 'Disco', 'Hiphop',...
 %run fisher vector
 FV = demo_fv(GENDATA, numClusters, exemplarSize);
 filename = ['../generated-fv/FV' int2str(numClusters) '-' int2str(exemplarSize) '.mat']
+
 save(filename,'FV');
 save('../generated-fv/LB.mat','LB');
