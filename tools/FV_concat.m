@@ -1,8 +1,8 @@
-function FullFV = fv_all_mfc()
+function FullFV = FV_concat(numClusters, exemplarSize)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % FV Concatenating
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-run('vlfeat/toolbox/vl_setup')
+run('../tools/vlfeat/toolbox/vl_setup')
 [DAT, LB, FNS] = loadAll('..');
 
 %extract the MFCC
@@ -18,6 +18,7 @@ GENDATA.class = LB;
 GENDATA.classnames = {'Blues', 'Classical', 'Country', 'Disco', 'Hiphop',...
 	'Jazz', 'Metal', 'Pop', 'Reggae', 'Rock'};
 %run fisher vector
-FV = demo_fv(GENDATA, 3, 3);
-save('../data/FV.mat','FV');
-save('../data/LB.mat','LB');
+FV = demo_fv(GENDATA, numClusters, exemplarSize);
+filename = ['../generated-fv/FV' int2str(numClusters) '-' int2str(exemplarSize) '.mat']
+save(filename,'FV');
+save('../generated-fv/LB.mat','LB');
