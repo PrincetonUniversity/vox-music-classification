@@ -38,12 +38,9 @@ def chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i+n]
 
-def load_and_shuffle_fv(num_clusters, exemplar_size, split_ratio):
-    """Loads the FV, but then shuffles the examples according to the
-    split ratio, returning ((trX, trY), (teX, teY)) with the train
-    and test set such that split_ratio of the examples are in
-    trianing. Runs basic validation, making sure there are only
-    10 labels total."""
+def load_and_shuffle_fv(num_clusters, exemplar_size):
+    """Loads the FV and runs basic validation, checking there are only
+    10 labels total. Does a shuffle."""
     mfcc, labels = load_mfcc_labels(num_clusters, exemplar_size)
 
     N = len(mfcc)
@@ -54,17 +51,11 @@ def load_and_shuffle_fv(num_clusters, exemplar_size, split_ratio):
         assert(len(set(chunk)) == 1)
     print('N = {}'.format(N))
 
-    trIdx = np.concatenate([i + np.arange(0, int(per_label * split_ratio))
-                            for i in range(0, N, per_label)])
-    teIdx = np.array([i for i in range(0, N) if i not in set(trIdx)])
-    np.random.shuffle(trIdx)
-
-    ret = ((mfcc[trIdx], labels[trIdx]), (mfcc[teIdx], labels[teIdx]))
     def summary(x): return '[{:.4f}, {:.4f}]'.format(x.min(), x.max())
     print('MFCC training feature ranges means {} sds {}'.format(
-        summary(np.mean(ret[0][0], axis=0)),
-        summary(np.std(ret[0][0], axis=0))))
-    return ret
+        summary(np.mean(mfcc, axis=0)),
+        summary(np.std(mfcc, axis=0))))
+    return mfcc, labels
 
 def whiten(x, source=None):
     """Mean and sd normalizes x column-wise relative to summary statistics
