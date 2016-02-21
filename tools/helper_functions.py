@@ -6,7 +6,7 @@ import subprocess
 import scipy.io as spio
 import numpy as np
 from os.path import join, isdir, isfile
-import sys
+import sys, os
 
 def load_mfcc_labels(num_clusters, exemplar_size):
     """Returns a tuple mfcc, labels of the mfcc data and labels for the songs
@@ -96,3 +96,32 @@ def completion_bar(position, total, width=50):
     return ('[' + '-' * frac_done + ' ' * (width - frac_done)
             + '] {:0' + str(len(str(total)))
             + 'd}/{}').format(position, total)
+
+def pad(nparrs):
+    shape = tuple((max(c) for c in zip(*(x.shape for x in nparrs))))
+    def to_pad(x): return tuple(((0, a - b) for a, b in zip(shape, x.shape)))
+    return [np.pad(x, to_pad(x), mode='constant') for x in nparrs]
+
+def load_all_nonmfc():
+    """Loads all features except for MFCC in the same order that MFCC
+    is loaded"""
+
+    ## List of all features that can be extracted ##
+    L = ['eng', 'chroma', 't', 'keystrength', 'brightness', 'zerocross',
+         'roughness', 'inharmonic', 'hcdf']
+
+    ## Dictionary of feature matrices ##
+    D = {}
+
+    for feature in L:
+        X = []
+        for genre in sorted(os.listdir('../data')):
+            path = join('../data', genre)
+            if not isdir(path): continue
+            def load(base, feat):
+                return spio.loadmat(join(path, base))['DAT'][feat][0,0]
+            arrs = [load(i, feature) for i in sorted(os.listdir(path))]
+            X.append(np.array(pad(arrs)))
+        print('Read in', feature, 'for all genres')
+        X = np.concatenate(pad(X))
+        D[feature] = X
