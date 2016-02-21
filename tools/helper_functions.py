@@ -121,7 +121,10 @@ def load_all_nonmfc():
             def load(base, feat):
                 return spio.loadmat(join(path, base))['DAT'][feat][0,0]
             arrs = [load(i, feature) for i in sorted(os.listdir(path))]
-            X.append(np.array(pad(arrs)))
+            arr = np.array(pad(arrs))
+            compact = tuple((x for x in arr.shape if x > 1))
+            X.append(arr.reshape(compact))
         print('Read in', feature, 'for all genres')
         X = np.concatenate(pad(X))
         D[feature] = X
+    return D
