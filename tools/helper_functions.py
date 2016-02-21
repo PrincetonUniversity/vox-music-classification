@@ -38,7 +38,7 @@ def chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i+n]
 
-def load_and_shuffle_fv(num_clusters, exemplar_size):
+def load_all_fv(num_clusters, exemplar_size):
     """Loads the FV and runs basic validation, checking there are only
     10 labels total. Does a shuffle."""
     mfcc, labels = load_mfcc_labels(num_clusters, exemplar_size)
