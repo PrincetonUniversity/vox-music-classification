@@ -3,10 +3,12 @@ This module contains assorted helper functions used in analysis, to be located
 in one place in order to avoid clutter and duplication in jupyter notebooks.
 """
 import subprocess
+import matplotlib.pyplot as plt
 import scipy.io as spio
 import numpy as np
 from os.path import join, isdir, isfile
 import sys, os
+from sklearn.metrics import confusion_matrix
 
 def load_mfcc_labels(num_clusters, exemplar_size):
     """Returns a tuple mfcc, labels of the mfcc data and labels for the songs
@@ -170,3 +172,14 @@ def load_chroma_fv(num_clusters, exemplar_size):
         summary(np.mean(mfcc, axis=0)),
         summary(np.std(mfcc, axis=0))))
     return mfcc, labels
+
+def plot_matrix(mat, title, cmap=plt.cm.ocean):
+    plt.imshow(mat, interpolation='nearest', cmap=cmap)
+    plt.title(title)
+    plt.colorbar()
+    plt.tight_layout()
+
+def plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.ocean):
+    plot_matrix(cm, title)
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
