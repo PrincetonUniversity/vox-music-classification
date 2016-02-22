@@ -1,0 +1,804 @@
+Using existing FVs from file ../generated-fv/FV1-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0504, 0.0036] sds [0.0948, 0.2163]
+Using existing FVs from file ../generated-fv/FV1-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0504, 0.0036] sds [0.0948, 0.2163]
+num clusters 1 exemplar size 1
+[ ] 01/11 acc 0.466 param C=0.1 kernel=rbf[ ] 02/11 acc 0.468 param C=001 kernel=rbf[ ] 03/11 acc 0.567 param C=010 kernel=rbf[ ] 04/11 acc 0.583 param C=100 kernel=rbf[ ] 05/11 acc 0.583 param C=100 kernel=rbf[ ] 06/11 acc 0.583 param C=100 kernel=rbf[ ] 07/11 acc 0.583 param C=100 kernel=rbf[ ] 08/11 acc 0.583 param C=100 kernel=rbf[ ] 09/11 acc 0.583 param C=100 kernel=rbf[ ] 10/11 acc 0.583 param C=100 kernel=rbf[-] 11/11 acc 0.583 param C=100 kernel=rbf
+Finished data instance in 4.257964611053467s. Top performer:
+  cv acc 0.583 clusters 1 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0504, 0.0036] sds [0.0948, 0.2163]
+num clusters 1 exemplar size 2
+[ ] 01/11 acc 0.466 param C=0.1 kernel=rbf[ ] 02/11 acc 0.468 param C=001 kernel=rbf[ ] 03/11 acc 0.567 param C=010 kernel=rbf[ ] 04/11 acc 0.583 param C=100 kernel=rbf[ ] 05/11 acc 0.583 param C=100 kernel=rbf[ ] 06/11 acc 0.583 param C=100 kernel=rbf[ ] 07/11 acc 0.583 param C=100 kernel=rbf[ ] 08/11 acc 0.583 param C=100 kernel=rbf[ ] 09/11 acc 0.583 param C=100 kernel=rbf[ ] 10/11 acc 0.583 param C=100 kernel=rbf[-] 11/11 acc 0.583 param C=100 kernel=rbf
+Finished data instance in 8.628397226333618s. Top performer:
+  cv acc 0.583 clusters 1 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0226, 0.0016] sds [0.0424, 0.0967]
+num clusters 1 exemplar size 3
+[ ] 01/11 acc 0.462 param C=0.1 kernel=rbf[ ] 02/11 acc 0.462 param C=0.1 kernel=rbf[ ] 03/11 acc 0.499 param C=010 kernel=rbf[ ] 04/11 acc 0.588 param C=100 kernel=rbf[ ] 05/11 acc 0.588 param C=100 kernel=rbf[ ] 06/11 acc 0.588 param C=100 kernel=rbf[ ] 07/11 acc 0.588 param C=100 kernel=rbf[ ] 08/11 acc 0.588 param C=100 kernel=rbf[ ] 09/11 acc 0.588 param C=100 kernel=rbf[ ] 10/11 acc 0.588 param C=100 kernel=rbf[-] 11/11 acc 0.588 param C=100 kernel=rbf
+Finished data instance in 16.403846502304077s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0226, 0.0016] sds [0.0424, 0.0967]
+num clusters 1 exemplar size 4
+[ ] 01/11 acc 0.462 param C=0.1 kernel=rbf[ ] 02/11 acc 0.462 param C=0.1 kernel=rbf[ ] 03/11 acc 0.499 param C=010 kernel=rbf[ ] 04/11 acc 0.588 param C=100 kernel=rbf[ ] 05/11 acc 0.588 param C=100 kernel=rbf[ ] 06/11 acc 0.588 param C=100 kernel=rbf[ ] 07/11 acc 0.588 param C=100 kernel=rbf[ ] 08/11 acc 0.588 param C=100 kernel=rbf[ ] 09/11 acc 0.588 param C=100 kernel=rbf[ ] 10/11 acc 0.588 param C=100 kernel=rbf[-] 11/11 acc 0.588 param C=100 kernel=rbf
+Finished data instance in 24.325218439102173s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0168, 0.0012] sds [0.0316, 0.0721]
+num clusters 1 exemplar size 5
+[ ] 01/11 acc 0.46 param C=0.1 kernel=rbf[ ] 02/11 acc 0.46 param C=0.1 kernel=rbf[ ] 03/11 acc 0.464 param C=010 kernel=rbf[ ] 04/11 acc 0.569 param C=100 kernel=rbf[ ] 05/11 acc 0.585 param C=1000 kernel=rbf[ ] 06/11 acc 0.585 param C=1000 kernel=rbf[ ] 07/11 acc 0.585 param C=1000 kernel=rbf[ ] 08/11 acc 0.585 param C=1000 kernel=rbf[ ] 09/11 acc 0.585 param C=1000 kernel=rbf[ ] 10/11 acc 0.585 param C=1000 kernel=rbf[-] 11/11 acc 0.585 param C=1000 kernel=rbf
+Finished data instance in 35.668482542037964s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0168, 0.0012] sds [0.0316, 0.0721]
+num clusters 1 exemplar size 6
+[ ] 01/11 acc 0.46 param C=0.1 kernel=rbf[ ] 02/11 acc 0.46 param C=0.1 kernel=rbf[ ] 03/11 acc 0.464 param C=010 kernel=rbf[ ] 04/11 acc 0.569 param C=100 kernel=rbf[ ] 05/11 acc 0.585 param C=1000 kernel=rbf[ ] 06/11 acc 0.585 param C=1000 kernel=rbf[ ] 07/11 acc 0.585 param C=1000 kernel=rbf[ ] 08/11 acc 0.585 param C=1000 kernel=rbf[ ] 09/11 acc 0.585 param C=1000 kernel=rbf[ ] 10/11 acc 0.585 param C=1000 kernel=rbf[-] 11/11 acc 0.585 param C=1000 kernel=rbf
+Finished data instance in 46.98090076446533s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0140, 0.0010] sds [0.0263, 0.0600]
+num clusters 1 exemplar size 7
+[ ] 01/11 acc 0.463 param C=0.1 kernel=rbf[ ] 02/11 acc 0.463 param C=0.1 kernel=rbf[ ] 03/11 acc 0.463 param C=0.1 kernel=rbf[ ] 04/11 acc 0.569 param C=100 kernel=rbf[ ] 05/11 acc 0.586 param C=1000 kernel=rbf[ ] 06/11 acc 0.586 param C=1000 kernel=rbf[ ] 07/11 acc 0.586 param C=1000 kernel=rbf[ ] 08/11 acc 0.586 param C=1000 kernel=rbf[ ] 09/11 acc 0.586 param C=1000 kernel=rbf[ ] 10/11 acc 0.586 param C=1000 kernel=rbf[-] 11/11 acc 0.586 param C=1000 kernel=rbf
+Finished data instance in 61.64563989639282s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0140, 0.0010] sds [0.0263, 0.0600]
+num clusters 1 exemplar size 8
+[ ] 01/11 acc 0.463 param C=0.1 kernel=rbf[ ] 02/11 acc 0.463 param C=0.1 kernel=rbf[ ] 03/11 acc 0.463 param C=0.1 kernel=rbf[ ] 04/11 acc 0.569 param C=100 kernel=rbf[ ] 05/11 acc 0.586 param C=1000 kernel=rbf[ ] 06/11 acc 0.586 param C=1000 kernel=rbf[ ] 07/11 acc 0.586 param C=1000 kernel=rbf[ ] 08/11 acc 0.586 param C=1000 kernel=rbf[ ] 09/11 acc 0.586 param C=1000 kernel=rbf[ ] 10/11 acc 0.586 param C=1000 kernel=rbf[-] 11/11 acc 0.586 param C=1000 kernel=rbf
+Finished data instance in 76.099125623703s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0123, 0.0009] sds [0.0230, 0.0525]
+num clusters 1 exemplar size 9
+[ ] 01/11 acc 0.461 param C=0.1 kernel=rbf[ ] 02/11 acc 0.461 param C=0.1 kernel=rbf[ ] 03/11 acc 0.461 param C=0.1 kernel=rbf[ ] 04/11 acc 0.567 param C=100 kernel=rbf[ ] 05/11 acc 0.585 param C=1000 kernel=rbf[ ] 06/11 acc 0.585 param C=1000 kernel=rbf[ ] 07/11 acc 0.585 param C=1000 kernel=rbf[ ] 08/11 acc 0.585 param C=1000 kernel=rbf[ ] 09/11 acc 0.585 param C=1000 kernel=rbf[ ] 10/11 acc 0.585 param C=1000 kernel=rbf[-] 11/11 acc 0.585 param C=1000 kernel=rbf
+Finished data instance in 93.8146653175354s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV1-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0123, 0.0009] sds [0.0230, 0.0525]
+num clusters 1 exemplar size 10
+[ ] 01/11 acc 0.461 param C=0.1 kernel=rbf[ ] 02/11 acc 0.461 param C=0.1 kernel=rbf[ ] 03/11 acc 0.461 param C=0.1 kernel=rbf[ ] 04/11 acc 0.567 param C=100 kernel=rbf[ ] 05/11 acc 0.585 param C=1000 kernel=rbf[ ] 06/11 acc 0.585 param C=1000 kernel=rbf[ ] 07/11 acc 0.585 param C=1000 kernel=rbf[ ] 08/11 acc 0.585 param C=1000 kernel=rbf[ ] 09/11 acc 0.585 param C=1000 kernel=rbf[ ] 10/11 acc 0.585 param C=1000 kernel=rbf[-] 11/11 acc 0.585 param C=1000 kernel=rbf
+Finished data instance in 111.64310097694397s. Top performer:
+  cv acc 0.5880000000000001 clusters 1 exemplar 3 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0426, 0.0073] sds [0.0579, 0.1845]
+num clusters 2 exemplar size 1
+[ ] 01/11 acc 0.589 param C=0.1 kernel=rbf[ ] 02/11 acc 0.589 param C=0.1 kernel=rbf[ ] 03/11 acc 0.612 param C=010 kernel=rbf[ ] 04/11 acc 0.625 param C=100 kernel=rbf[ ] 05/11 acc 0.625 param C=100 kernel=rbf[ ] 06/11 acc 0.625 param C=100 kernel=rbf[ ] 07/11 acc 0.625 param C=100 kernel=rbf[ ] 08/11 acc 0.625 param C=100 kernel=rbf[ ] 09/11 acc 0.625 param C=100 kernel=rbf[ ] 10/11 acc 0.625 param C=100 kernel=rbf[-] 11/11 acc 0.625 param C=100 kernel=rbf
+Finished data instance in 117.27058815956116s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0426, 0.0073] sds [0.0579, 0.1845]
+num clusters 2 exemplar size 2
+[ ] 01/11 acc 0.589 param C=0.1 kernel=rbf[ ] 02/11 acc 0.589 param C=0.1 kernel=rbf[ ] 03/11 acc 0.612 param C=010 kernel=rbf[ ] 04/11 acc 0.625 param C=100 kernel=rbf[ ] 05/11 acc 0.625 param C=100 kernel=rbf[ ] 06/11 acc 0.625 param C=100 kernel=rbf[ ] 07/11 acc 0.625 param C=100 kernel=rbf[ ] 08/11 acc 0.625 param C=100 kernel=rbf[ ] 09/11 acc 0.625 param C=100 kernel=rbf[ ] 10/11 acc 0.625 param C=100 kernel=rbf[-] 11/11 acc 0.625 param C=100 kernel=rbf
+Finished data instance in 122.90963292121887s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0177, 0.0034] sds [0.0261, 0.0808]
+num clusters 2 exemplar size 3
+[ ] 01/11 acc 0.588 param C=0.1 kernel=rbf[ ] 02/11 acc 0.588 param C=0.1 kernel=rbf[ ] 03/11 acc 0.588 param C=0.1 kernel=rbf[ ] 04/11 acc 0.616 param C=100 kernel=rbf[ ] 05/11 acc 0.616 param C=100 kernel=rbf[ ] 06/11 acc 0.616 param C=100 kernel=rbf[ ] 07/11 acc 0.616 param C=100 kernel=rbf[ ] 08/11 acc 0.616 param C=100 kernel=rbf[ ] 09/11 acc 0.616 param C=100 kernel=rbf[ ] 10/11 acc 0.616 param C=100 kernel=rbf[-] 11/11 acc 0.616 param C=100 kernel=rbf
+Finished data instance in 135.79281973838806s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0177, 0.0034] sds [0.0261, 0.0808]
+num clusters 2 exemplar size 4
+[ ] 01/11 acc 0.588 param C=0.1 kernel=rbf[ ] 02/11 acc 0.588 param C=0.1 kernel=rbf[ ] 03/11 acc 0.588 param C=0.1 kernel=rbf[ ] 04/11 acc 0.616 param C=100 kernel=rbf[ ] 05/11 acc 0.616 param C=100 kernel=rbf[ ] 06/11 acc 0.616 param C=100 kernel=rbf[ ] 07/11 acc 0.616 param C=100 kernel=rbf[ ] 08/11 acc 0.616 param C=100 kernel=rbf[ ] 09/11 acc 0.616 param C=100 kernel=rbf[ ] 10/11 acc 0.616 param C=100 kernel=rbf[-] 11/11 acc 0.616 param C=100 kernel=rbf
+Finished data instance in 148.50923132896423s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0128, 0.0026] sds [0.0195, 0.0602]
+num clusters 2 exemplar size 5
+[ ] 01/11 acc 0.592 param C=0.1 kernel=rbf[ ] 02/11 acc 0.592 param C=0.1 kernel=rbf[ ] 03/11 acc 0.592 param C=0.1 kernel=rbf[ ] 04/11 acc 0.611 param C=100 kernel=rbf[ ] 05/11 acc 0.613 param C=1000 kernel=rbf[ ] 06/11 acc 0.613 param C=1000 kernel=rbf[ ] 07/11 acc 0.613 param C=1000 kernel=rbf[ ] 08/11 acc 0.613 param C=1000 kernel=rbf[ ] 09/11 acc 0.613 param C=1000 kernel=rbf[ ] 10/11 acc 0.613 param C=1000 kernel=rbf[-] 11/11 acc 0.613 param C=1000 kernel=rbf
+Finished data instance in 167.95999836921692s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0128, 0.0026] sds [0.0195, 0.0602]
+num clusters 2 exemplar size 6
+[ ] 01/11 acc 0.592 param C=0.1 kernel=rbf[ ] 02/11 acc 0.592 param C=0.1 kernel=rbf[ ] 03/11 acc 0.592 param C=0.1 kernel=rbf[ ] 04/11 acc 0.611 param C=100 kernel=rbf[ ] 05/11 acc 0.613 param C=1000 kernel=rbf[ ] 06/11 acc 0.613 param C=1000 kernel=rbf[ ] 07/11 acc 0.613 param C=1000 kernel=rbf[ ] 08/11 acc 0.613 param C=1000 kernel=rbf[ ] 09/11 acc 0.613 param C=1000 kernel=rbf[ ] 10/11 acc 0.613 param C=1000 kernel=rbf[-] 11/11 acc 0.613 param C=1000 kernel=rbf
+Finished data instance in 187.3805422782898s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0102, 0.0021] sds [0.0160, 0.0502]
+num clusters 2 exemplar size 7
+[ ] 01/11 acc 0.59 param C=0.1 kernel=rbf[ ] 02/11 acc 0.59 param C=0.1 kernel=rbf[ ] 03/11 acc 0.59 param C=0.1 kernel=rbf[ ] 04/11 acc 0.598 param C=100 kernel=rbf[ ] 05/11 acc 0.613 param C=1000 kernel=rbf[ ] 06/11 acc 0.613 param C=1000 kernel=rbf[ ] 07/11 acc 0.613 param C=1000 kernel=rbf[ ] 08/11 acc 0.613 param C=1000 kernel=rbf[ ] 09/11 acc 0.613 param C=1000 kernel=rbf[ ] 10/11 acc 0.613 param C=1000 kernel=rbf[-] 11/11 acc 0.613 param C=1000 kernel=rbf
+Finished data instance in 212.8721261024475s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0102, 0.0021] sds [0.0160, 0.0502]
+num clusters 2 exemplar size 8
+[ ] 01/11 acc 0.59 param C=0.1 kernel=rbf[ ] 02/11 acc 0.59 param C=0.1 kernel=rbf[ ] 03/11 acc 0.59 param C=0.1 kernel=rbf[ ] 04/11 acc 0.598 param C=100 kernel=rbf[ ] 05/11 acc 0.613 param C=1000 kernel=rbf[ ] 06/11 acc 0.613 param C=1000 kernel=rbf[ ] 07/11 acc 0.613 param C=1000 kernel=rbf[ ] 08/11 acc 0.613 param C=1000 kernel=rbf[ ] 09/11 acc 0.613 param C=1000 kernel=rbf[ ] 10/11 acc 0.613 param C=1000 kernel=rbf[-] 11/11 acc 0.613 param C=1000 kernel=rbf
+Finished data instance in 238.6414647102356s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0087, 0.0018] sds [0.0138, 0.0440]
+num clusters 2 exemplar size 9
+[ ] 01/11 acc 0.587 param C=0.1 kernel=rbf[ ] 02/11 acc 0.587 param C=0.1 kernel=rbf[ ] 03/11 acc 0.587 param C=0.1 kernel=rbf[ ] 04/11 acc 0.596 param C=100 kernel=rbf[ ] 05/11 acc 0.611 param C=1000 kernel=rbf[ ] 06/11 acc 0.611 param C=1000 kernel=rbf[ ] 07/11 acc 0.611 param C=1000 kernel=rbf[ ] 08/11 acc 0.611 param C=1000 kernel=rbf[ ] 09/11 acc 0.611 param C=1000 kernel=rbf[ ] 10/11 acc 0.611 param C=1000 kernel=rbf[-] 11/11 acc 0.611 param C=1000 kernel=rbf
+Finished data instance in 271.09383940696716s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV2-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0087, 0.0018] sds [0.0138, 0.0440]
+num clusters 2 exemplar size 10
+[ ] 01/11 acc 0.587 param C=0.1 kernel=rbf[ ] 02/11 acc 0.587 param C=0.1 kernel=rbf[ ] 03/11 acc 0.587 param C=0.1 kernel=rbf[ ] 04/11 acc 0.596 param C=100 kernel=rbf[ ] 05/11 acc 0.611 param C=1000 kernel=rbf[ ] 06/11 acc 0.611 param C=1000 kernel=rbf[ ] 07/11 acc 0.611 param C=1000 kernel=rbf[ ] 08/11 acc 0.611 param C=1000 kernel=rbf[ ] 09/11 acc 0.611 param C=1000 kernel=rbf[ ] 10/11 acc 0.611 param C=1000 kernel=rbf[-] 11/11 acc 0.611 param C=1000 kernel=rbf
+Finished data instance in 304.0900568962097s. Top performer:
+  cv acc 0.625 clusters 2 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0383, 0.0181] sds [0.0366, 0.1701]
+num clusters 3 exemplar size 1
+[ ] 01/11 acc 0.594 param C=0.1 kernel=rbf[ ] 02/11 acc 0.594 param C=0.1 kernel=rbf[ ] 03/11 acc 0.617 param C=010 kernel=rbf[ ] 04/11 acc 0.66 param C=100 kernel=rbf[ ] 05/11 acc 0.66 param C=100 kernel=rbf[ ] 06/11 acc 0.66 param C=100 kernel=rbf[ ] 07/11 acc 0.66 param C=100 kernel=rbf[ ] 08/11 acc 0.66 param C=100 kernel=rbf[ ] 09/11 acc 0.66 param C=100 kernel=rbf[ ] 10/11 acc 0.66 param C=100 kernel=rbf[-] 11/11 acc 0.66 param C=100 kernel=rbf
+Finished data instance in 310.0382549762726s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0383, 0.0181] sds [0.0366, 0.1701]
+num clusters 3 exemplar size 2
+[ ] 01/11 acc 0.594 param C=0.1 kernel=rbf[ ] 02/11 acc 0.594 param C=0.1 kernel=rbf[ ] 03/11 acc 0.617 param C=010 kernel=rbf[ ] 04/11 acc 0.66 param C=100 kernel=rbf[ ] 05/11 acc 0.66 param C=100 kernel=rbf[ ] 06/11 acc 0.66 param C=100 kernel=rbf[ ] 07/11 acc 0.66 param C=100 kernel=rbf[ ] 08/11 acc 0.66 param C=100 kernel=rbf[ ] 09/11 acc 0.66 param C=100 kernel=rbf[ ] 10/11 acc 0.66 param C=100 kernel=rbf[-] 11/11 acc 0.66 param C=100 kernel=rbf
+Finished data instance in 316.1196415424347s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+num clusters 3 exemplar size 3
+[ ] 01/11 acc 0.617 param C=0.1 kernel=rbf[ ] 02/11 acc 0.617 param C=0.1 kernel=rbf[ ] 03/11 acc 0.617 param C=0.1 kernel=rbf[ ] 04/11 acc 0.62 param C=100 kernel=rbf[ ] 05/11 acc 0.641 param C=1000 kernel=rbf[ ] 06/11 acc 0.641 param C=1000 kernel=rbf[ ] 07/11 acc 0.641 param C=1000 kernel=rbf[ ] 08/11 acc 0.641 param C=1000 kernel=rbf[ ] 09/11 acc 0.641 param C=1000 kernel=rbf[ ] 10/11 acc 0.641 param C=1000 kernel=rbf[-] 11/11 acc 0.641 param C=1000 kernel=rbf
+Finished data instance in 333.2478861808777s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+num clusters 3 exemplar size 4
+[ ] 01/11 acc 0.617 param C=0.1 kernel=rbf[ ] 02/11 acc 0.617 param C=0.1 kernel=rbf[ ] 03/11 acc 0.617 param C=0.1 kernel=rbf[ ] 04/11 acc 0.62 param C=100 kernel=rbf[ ] 05/11 acc 0.641 param C=1000 kernel=rbf[ ] 06/11 acc 0.641 param C=1000 kernel=rbf[ ] 07/11 acc 0.641 param C=1000 kernel=rbf[ ] 08/11 acc 0.641 param C=1000 kernel=rbf[ ] 09/11 acc 0.641 param C=1000 kernel=rbf[ ] 10/11 acc 0.641 param C=1000 kernel=rbf[-] 11/11 acc 0.641 param C=1000 kernel=rbf
+Finished data instance in 351.86625361442566s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0141, 0.0066] sds [0.0151, 0.0462]
+num clusters 3 exemplar size 5
+[ ] 01/11 acc 0.608 param C=0.1 kernel=rbf[ ] 02/11 acc 0.608 param C=0.1 kernel=rbf[ ] 03/11 acc 0.608 param C=0.1 kernel=rbf[ ] 04/11 acc 0.611 param C=100 kernel=rbf[ ] 05/11 acc 0.647 param C=1000 kernel=rbf[ ] 06/11 acc 0.647 param C=1000 kernel=rbf[ ] 07/11 acc 0.647 param C=1000 kernel=rbf[ ] 08/11 acc 0.647 param C=1000 kernel=rbf[ ] 09/11 acc 0.647 param C=1000 kernel=rbf[ ] 10/11 acc 0.647 param C=1000 kernel=rbf[-] 11/11 acc 0.647 param C=1000 kernel=rbf
+Finished data instance in 380.71270871162415s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0141, 0.0066] sds [0.0151, 0.0462]
+num clusters 3 exemplar size 6
+[ ] 01/11 acc 0.608 param C=0.1 kernel=rbf[ ] 02/11 acc 0.608 param C=0.1 kernel=rbf[ ] 03/11 acc 0.608 param C=0.1 kernel=rbf[ ] 04/11 acc 0.611 param C=100 kernel=rbf[ ] 05/11 acc 0.647 param C=1000 kernel=rbf[ ] 06/11 acc 0.647 param C=1000 kernel=rbf[ ] 07/11 acc 0.647 param C=1000 kernel=rbf[ ] 08/11 acc 0.647 param C=1000 kernel=rbf[ ] 09/11 acc 0.647 param C=1000 kernel=rbf[ ] 10/11 acc 0.647 param C=1000 kernel=rbf[-] 11/11 acc 0.647 param C=1000 kernel=rbf
+Finished data instance in 408.4613335132599s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0111, 0.0053] sds [0.0126, 0.0388]
+num clusters 3 exemplar size 7
+[ ] 01/11 acc 0.603 param C=0.1 kernel=rbf[ ] 02/11 acc 0.603 param C=0.1 kernel=rbf[ ] 03/11 acc 0.603 param C=0.1 kernel=rbf[ ] 04/11 acc 0.61 param C=100 kernel=rbf[ ] 05/11 acc 0.648 param C=1000 kernel=rbf[ ] 06/11 acc 0.648 param C=1000 kernel=rbf[ ] 07/11 acc 0.648 param C=1000 kernel=rbf[ ] 08/11 acc 0.648 param C=1000 kernel=rbf[ ] 09/11 acc 0.648 param C=1000 kernel=rbf[ ] 10/11 acc 0.648 param C=1000 kernel=rbf[-] 11/11 acc 0.648 param C=1000 kernel=rbf
+Finished data instance in 447.01833605766296s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0111, 0.0053] sds [0.0126, 0.0388]
+num clusters 3 exemplar size 8
+[ ] 01/11 acc 0.603 param C=0.1 kernel=rbf[ ] 02/11 acc 0.603 param C=0.1 kernel=rbf[ ] 03/11 acc 0.603 param C=0.1 kernel=rbf[ ] 04/11 acc 0.61 param C=100 kernel=rbf[ ] 05/11 acc 0.648 param C=1000 kernel=rbf[ ] 06/11 acc 0.648 param C=1000 kernel=rbf[ ] 07/11 acc 0.648 param C=1000 kernel=rbf[ ] 08/11 acc 0.648 param C=1000 kernel=rbf[ ] 09/11 acc 0.648 param C=1000 kernel=rbf[ ] 10/11 acc 0.648 param C=1000 kernel=rbf[-] 11/11 acc 0.648 param C=1000 kernel=rbf
+Finished data instance in 484.4189076423645s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0090, 0.0048] sds [0.0111, 0.0339]
+num clusters 3 exemplar size 9
+[ ] 01/11 acc 0.593 param C=0.1 kernel=rbf[ ] 02/11 acc 0.593 param C=0.1 kernel=rbf[ ] 03/11 acc 0.593 param C=0.1 kernel=rbf[ ] 04/11 acc 0.593 param C=0.1 kernel=rbf[ ] 05/11 acc 0.639 param C=1000 kernel=rbf[ ] 06/11 acc 0.639 param C=1000 kernel=rbf[ ] 07/11 acc 0.639 param C=1000 kernel=rbf[ ] 08/11 acc 0.639 param C=1000 kernel=rbf[ ] 09/11 acc 0.639 param C=1000 kernel=rbf[ ] 10/11 acc 0.639 param C=1000 kernel=rbf[-] 11/11 acc 0.639 param C=1000 kernel=rbf
+Finished data instance in 534.7167391777039s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV3-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0090, 0.0048] sds [0.0111, 0.0339]
+num clusters 3 exemplar size 10
+[ ] 01/11 acc 0.593 param C=0.1 kernel=rbf[ ] 02/11 acc 0.593 param C=0.1 kernel=rbf[ ] 03/11 acc 0.593 param C=0.1 kernel=rbf[ ] 04/11 acc 0.593 param C=0.1 kernel=rbf[ ] 05/11 acc 0.639 param C=1000 kernel=rbf[ ] 06/11 acc 0.639 param C=1000 kernel=rbf[ ] 07/11 acc 0.639 param C=1000 kernel=rbf[ ] 08/11 acc 0.639 param C=1000 kernel=rbf[ ] 09/11 acc 0.639 param C=1000 kernel=rbf[ ] 10/11 acc 0.639 param C=1000 kernel=rbf[-] 11/11 acc 0.639 param C=1000 kernel=rbf
+Finished data instance in 585.0965948104858s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0296, 0.0165] sds [0.0342, 0.1402]
+num clusters 4 exemplar size 1
+[ ] 01/11 acc 0.601 param C=0.1 kernel=rbf[ ] 02/11 acc 0.601 param C=0.1 kernel=rbf[ ] 03/11 acc 0.612 param C=010 kernel=rbf[ ] 04/11 acc 0.653 param C=100 kernel=rbf[ ] 05/11 acc 0.653 param C=100 kernel=rbf[ ] 06/11 acc 0.653 param C=100 kernel=rbf[ ] 07/11 acc 0.653 param C=100 kernel=rbf[ ] 08/11 acc 0.653 param C=100 kernel=rbf[ ] 09/11 acc 0.653 param C=100 kernel=rbf[ ] 10/11 acc 0.653 param C=100 kernel=rbf[-] 11/11 acc 0.653 param C=100 kernel=rbf
+Finished data instance in 592.5702800750732s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0296, 0.0165] sds [0.0342, 0.1402]
+num clusters 4 exemplar size 2
+[ ] 01/11 acc 0.601 param C=0.1 kernel=rbf[ ] 02/11 acc 0.601 param C=0.1 kernel=rbf[ ] 03/11 acc 0.612 param C=010 kernel=rbf[ ] 04/11 acc 0.653 param C=100 kernel=rbf[ ] 05/11 acc 0.653 param C=100 kernel=rbf[ ] 06/11 acc 0.653 param C=100 kernel=rbf[ ] 07/11 acc 0.653 param C=100 kernel=rbf[ ] 08/11 acc 0.653 param C=100 kernel=rbf[ ] 09/11 acc 0.653 param C=100 kernel=rbf[ ] 10/11 acc 0.653 param C=100 kernel=rbf[-] 11/11 acc 0.653 param C=100 kernel=rbf
+Finished data instance in 600.1073410511017s. Top performer:
+  cv acc 0.66 clusters 3 exemplar 1 C 100 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+num clusters 4 exemplar size 3
+[ ] 01/11 acc 0.634 param C=0.1 kernel=rbf[ ] 02/11 acc 0.634 param C=0.1 kernel=rbf[ ] 03/11 acc 0.634 param C=0.1 kernel=rbf[ ] 04/11 acc 0.634 param C=0.1 kernel=rbf[ ] 05/11 acc 0.665 param C=1000 kernel=rbf[ ] 06/11 acc 0.665 param C=1000 kernel=rbf[ ] 07/11 acc 0.665 param C=1000 kernel=rbf[ ] 08/11 acc 0.665 param C=1000 kernel=rbf[ ] 09/11 acc 0.665 param C=1000 kernel=rbf[ ] 10/11 acc 0.665 param C=1000 kernel=rbf[-] 11/11 acc 0.665 param C=1000 kernel=rbf
+Finished data instance in 622.5787396430969s. Top performer:
+  cv acc 0.665 clusters 4 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+num clusters 4 exemplar size 4
+[ ] 01/11 acc 0.634 param C=0.1 kernel=rbf[ ] 02/11 acc 0.634 param C=0.1 kernel=rbf[ ] 03/11 acc 0.634 param C=0.1 kernel=rbf[ ] 04/11 acc 0.634 param C=0.1 kernel=rbf[ ] 05/11 acc 0.665 param C=1000 kernel=rbf[ ] 06/11 acc 0.665 param C=1000 kernel=rbf[ ] 07/11 acc 0.665 param C=1000 kernel=rbf[ ] 08/11 acc 0.665 param C=1000 kernel=rbf[ ] 09/11 acc 0.665 param C=1000 kernel=rbf[ ] 10/11 acc 0.665 param C=1000 kernel=rbf[-] 11/11 acc 0.665 param C=1000 kernel=rbf
+Finished data instance in 645.6060543060303s. Top performer:
+  cv acc 0.665 clusters 4 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0111, 0.0058] sds [0.0131, 0.0388]
+num clusters 4 exemplar size 5
+[ ] 01/11 acc 0.619 param C=0.1 kernel=rbf[ ] 02/11 acc 0.619 param C=0.1 kernel=rbf[ ] 03/11 acc 0.619 param C=0.1 kernel=rbf[ ] 04/11 acc 0.63 param C=100 kernel=rbf[ ] 05/11 acc 0.676 param C=1000 kernel=rbf[ ] 06/11 acc 0.676 param C=1000 kernel=rbf[ ] 07/11 acc 0.676 param C=1000 kernel=rbf[ ] 08/11 acc 0.676 param C=1000 kernel=rbf[ ] 09/11 acc 0.676 param C=1000 kernel=rbf[ ] 10/11 acc 0.676 param C=1000 kernel=rbf[-] 11/11 acc 0.676 param C=1000 kernel=rbf
+Finished data instance in 684.1690719127655s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0111, 0.0058] sds [0.0131, 0.0388]
+num clusters 4 exemplar size 6
+[ ] 01/11 acc 0.619 param C=0.1 kernel=rbf[ ] 02/11 acc 0.619 param C=0.1 kernel=rbf[ ] 03/11 acc 0.619 param C=0.1 kernel=rbf[ ] 04/11 acc 0.63 param C=100 kernel=rbf[ ] 05/11 acc 0.676 param C=1000 kernel=rbf[ ] 06/11 acc 0.676 param C=1000 kernel=rbf[ ] 07/11 acc 0.676 param C=1000 kernel=rbf[ ] 08/11 acc 0.676 param C=1000 kernel=rbf[ ] 09/11 acc 0.676 param C=1000 kernel=rbf[ ] 10/11 acc 0.676 param C=1000 kernel=rbf[-] 11/11 acc 0.676 param C=1000 kernel=rbf
+Finished data instance in 722.1493384838104s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0080, 0.0044] sds [0.0107, 0.0347]
+num clusters 4 exemplar size 7
+[ ] 01/11 acc 0.599 param C=0.1 kernel=rbf[ ] 02/11 acc 0.599 param C=0.1 kernel=rbf[ ] 03/11 acc 0.599 param C=0.1 kernel=rbf[ ] 04/11 acc 0.6 param C=100 kernel=rbf[ ] 05/11 acc 0.644 param C=1000 kernel=rbf[ ] 06/11 acc 0.644 param C=1000 kernel=rbf[ ] 07/11 acc 0.644 param C=1000 kernel=rbf[ ] 08/11 acc 0.644 param C=1000 kernel=rbf[ ] 09/11 acc 0.644 param C=1000 kernel=rbf[ ] 10/11 acc 0.644 param C=1000 kernel=rbf[-] 11/11 acc 0.644 param C=1000 kernel=rbf
+Finished data instance in 774.9084198474884s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0080, 0.0044] sds [0.0107, 0.0347]
+num clusters 4 exemplar size 8
+[ ] 01/11 acc 0.599 param C=0.1 kernel=rbf[ ] 02/11 acc 0.599 param C=0.1 kernel=rbf[ ] 03/11 acc 0.599 param C=0.1 kernel=rbf[ ] 04/11 acc 0.6 param C=100 kernel=rbf[ ] 05/11 acc 0.644 param C=1000 kernel=rbf[ ] 06/11 acc 0.644 param C=1000 kernel=rbf[ ] 07/11 acc 0.644 param C=1000 kernel=rbf[ ] 08/11 acc 0.644 param C=1000 kernel=rbf[ ] 09/11 acc 0.644 param C=1000 kernel=rbf[ ] 10/11 acc 0.644 param C=1000 kernel=rbf[-] 11/11 acc 0.644 param C=1000 kernel=rbf
+Finished data instance in 827.8309075832367s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0068, 0.0036] sds [0.0097, 0.0289]
+num clusters 4 exemplar size 9
+[ ] 01/11 acc 0.604 param C=0.1 kernel=rbf[ ] 02/11 acc 0.604 param C=0.1 kernel=rbf[ ] 03/11 acc 0.604 param C=0.1 kernel=rbf[ ] 04/11 acc 0.604 param C=0.1 kernel=rbf[ ] 05/11 acc 0.649 param C=1000 kernel=rbf[ ] 06/11 acc 0.649 param C=1000 kernel=rbf[ ] 07/11 acc 0.649 param C=1000 kernel=rbf[ ] 08/11 acc 0.649 param C=1000 kernel=rbf[ ] 09/11 acc 0.649 param C=1000 kernel=rbf[ ] 10/11 acc 0.649 param C=1000 kernel=rbf[-] 11/11 acc 0.649 param C=1000 kernel=rbf
+Finished data instance in 896.1435458660126s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV4-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0068, 0.0036] sds [0.0097, 0.0289]
+num clusters 4 exemplar size 10
+[ ] 01/11 acc 0.604 param C=0.1 kernel=rbf[ ] 02/11 acc 0.604 param C=0.1 kernel=rbf[ ] 03/11 acc 0.604 param C=0.1 kernel=rbf[ ] 04/11 acc 0.604 param C=0.1 kernel=rbf[ ] 05/11 acc 0.649 param C=1000 kernel=rbf[ ] 06/11 acc 0.649 param C=1000 kernel=rbf[ ] 07/11 acc 0.649 param C=1000 kernel=rbf[ ] 08/11 acc 0.649 param C=1000 kernel=rbf[ ] 09/11 acc 0.649 param C=1000 kernel=rbf[ ] 10/11 acc 0.649 param C=1000 kernel=rbf[-] 11/11 acc 0.649 param C=1000 kernel=rbf
+Finished data instance in 964.3111152648926s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0263, 0.0155] sds [0.0320, 0.1308]
+num clusters 5 exemplar size 1
+[ ] 01/11 acc 0.612 param C=0.1 kernel=rbf[ ] 02/11 acc 0.612 param C=0.1 kernel=rbf[ ] 03/11 acc 0.619 param C=010 kernel=rbf[ ] 04/11 acc 0.654 param C=100 kernel=rbf[ ] 05/11 acc 0.654 param C=100 kernel=rbf[ ] 06/11 acc 0.654 param C=100 kernel=rbf[ ] 07/11 acc 0.654 param C=100 kernel=rbf[ ] 08/11 acc 0.654 param C=100 kernel=rbf[ ] 09/11 acc 0.654 param C=100 kernel=rbf[ ] 10/11 acc 0.654 param C=100 kernel=rbf[-] 11/11 acc 0.654 param C=100 kernel=rbf
+Finished data instance in 973.1183550357819s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0263, 0.0155] sds [0.0320, 0.1308]
+num clusters 5 exemplar size 2
+[ ] 01/11 acc 0.612 param C=0.1 kernel=rbf[ ] 02/11 acc 0.612 param C=0.1 kernel=rbf[ ] 03/11 acc 0.619 param C=010 kernel=rbf[ ] 04/11 acc 0.654 param C=100 kernel=rbf[ ] 05/11 acc 0.654 param C=100 kernel=rbf[ ] 06/11 acc 0.654 param C=100 kernel=rbf[ ] 07/11 acc 0.654 param C=100 kernel=rbf[ ] 08/11 acc 0.654 param C=100 kernel=rbf[ ] 09/11 acc 0.654 param C=100 kernel=rbf[ ] 10/11 acc 0.654 param C=100 kernel=rbf[-] 11/11 acc 0.654 param C=100 kernel=rbf
+Finished data instance in 981.8141112327576s. Top performer:
+  cv acc 0.6759999999999999 clusters 4 exemplar 5 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0134, 0.0066] sds [0.0159, 0.0487]
+num clusters 5 exemplar size 3
+[ ] 01/11 acc 0.626 param C=0.1 kernel=rbf[ ] 02/11 acc 0.626 param C=0.1 kernel=rbf[ ] 03/11 acc 0.626 param C=0.1 kernel=rbf[ ] 04/11 acc 0.636 param C=100 kernel=rbf[ ] 05/11 acc 0.698 param C=1000 kernel=rbf[ ] 06/11 acc 0.698 param C=1000 kernel=rbf[ ] 07/11 acc 0.698 param C=1000 kernel=rbf[ ] 08/11 acc 0.698 param C=1000 kernel=rbf[ ] 09/11 acc 0.698 param C=1000 kernel=rbf[ ] 10/11 acc 0.698 param C=1000 kernel=rbf[-] 11/11 acc 0.698 param C=1000 kernel=rbf
+Finished data instance in 1010.4144995212555s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0134, 0.0066] sds [0.0159, 0.0487]
+num clusters 5 exemplar size 4
+[ ] 01/11 acc 0.626 param C=0.1 kernel=rbf[ ] 02/11 acc 0.626 param C=0.1 kernel=rbf[ ] 03/11 acc 0.626 param C=0.1 kernel=rbf[ ] 04/11 acc 0.636 param C=100 kernel=rbf[ ] 05/11 acc 0.698 param C=1000 kernel=rbf[ ] 06/11 acc 0.698 param C=1000 kernel=rbf[ ] 07/11 acc 0.698 param C=1000 kernel=rbf[ ] 08/11 acc 0.698 param C=1000 kernel=rbf[ ] 09/11 acc 0.698 param C=1000 kernel=rbf[ ] 10/11 acc 0.698 param C=1000 kernel=rbf[-] 11/11 acc 0.698 param C=1000 kernel=rbf
+Finished data instance in 1039.664496421814s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+num clusters 5 exemplar size 5
+[ ] 01/11 acc 0.621 param C=0.1 kernel=rbf[ ] 02/11 acc 0.621 param C=0.1 kernel=rbf[ ] 03/11 acc 0.621 param C=0.1 kernel=rbf[ ] 04/11 acc 0.621 param C=0.1 kernel=rbf[ ] 05/11 acc 0.677 param C=1000 kernel=rbf[ ] 06/11 acc 0.677 param C=1000 kernel=rbf[ ] 07/11 acc 0.677 param C=1000 kernel=rbf[ ] 08/11 acc 0.677 param C=1000 kernel=rbf[ ] 09/11 acc 0.677 param C=1000 kernel=rbf[ ] 10/11 acc 0.677 param C=1000 kernel=rbf[-] 11/11 acc 0.677 param C=1000 kernel=rbf
+Finished data instance in 1087.851238489151s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+num clusters 5 exemplar size 6
+[ ] 01/11 acc 0.621 param C=0.1 kernel=rbf[ ] 02/11 acc 0.621 param C=0.1 kernel=rbf[ ] 03/11 acc 0.621 param C=0.1 kernel=rbf[ ] 04/11 acc 0.621 param C=0.1 kernel=rbf[ ] 05/11 acc 0.677 param C=1000 kernel=rbf[ ] 06/11 acc 0.677 param C=1000 kernel=rbf[ ] 07/11 acc 0.677 param C=1000 kernel=rbf[ ] 08/11 acc 0.677 param C=1000 kernel=rbf[ ] 09/11 acc 0.677 param C=1000 kernel=rbf[ ] 10/11 acc 0.677 param C=1000 kernel=rbf[-] 11/11 acc 0.677 param C=1000 kernel=rbf
+Finished data instance in 1135.0540051460266s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0076, 0.0048] sds [0.0092, 0.0321]
+num clusters 5 exemplar size 7
+[ ] 01/11 acc 0.626 param C=0.1 kernel=rbf[ ] 02/11 acc 0.626 param C=0.1 kernel=rbf[ ] 03/11 acc 0.626 param C=0.1 kernel=rbf[ ] 04/11 acc 0.626 param C=0.1 kernel=rbf[ ] 05/11 acc 0.663 param C=1000 kernel=rbf[ ] 06/11 acc 0.663 param C=1000 kernel=rbf[ ] 07/11 acc 0.663 param C=1000 kernel=rbf[ ] 08/11 acc 0.663 param C=1000 kernel=rbf[ ] 09/11 acc 0.663 param C=1000 kernel=rbf[ ] 10/11 acc 0.663 param C=1000 kernel=rbf[-] 11/11 acc 0.663 param C=1000 kernel=rbf
+Finished data instance in 1201.687343120575s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0076, 0.0048] sds [0.0092, 0.0321]
+num clusters 5 exemplar size 8
+[ ] 01/11 acc 0.626 param C=0.1 kernel=rbf[ ] 02/11 acc 0.626 param C=0.1 kernel=rbf[ ] 03/11 acc 0.626 param C=0.1 kernel=rbf[ ] 04/11 acc 0.626 param C=0.1 kernel=rbf[ ] 05/11 acc 0.663 param C=1000 kernel=rbf[ ] 06/11 acc 0.663 param C=1000 kernel=rbf[ ] 07/11 acc 0.663 param C=1000 kernel=rbf[ ] 08/11 acc 0.663 param C=1000 kernel=rbf[ ] 09/11 acc 0.663 param C=1000 kernel=rbf[ ] 10/11 acc 0.663 param C=1000 kernel=rbf[-] 11/11 acc 0.663 param C=1000 kernel=rbf
+Finished data instance in 1268.5912005901337s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0051, 0.0032] sds [0.0087, 0.0268]
+num clusters 5 exemplar size 9
+[ ] 01/11 acc 0.631 param C=0.1 kernel=rbf[ ] 02/11 acc 0.631 param C=0.1 kernel=rbf[ ] 03/11 acc 0.631 param C=0.1 kernel=rbf[ ] 04/11 acc 0.631 param C=0.1 kernel=rbf[ ] 05/11 acc 0.649 param C=1000 kernel=rbf[ ] 06/11 acc 0.657 param C=10000 kernel=rbf[ ] 07/11 acc 0.657 param C=10000 kernel=rbf[ ] 08/11 acc 0.657 param C=10000 kernel=rbf[ ] 09/11 acc 0.657 param C=10000 kernel=rbf[ ] 10/11 acc 0.657 param C=10000 kernel=rbf[-] 11/11 acc 0.657 param C=10000 kernel=rbf
+Finished data instance in 1355.8327124118805s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV5-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0051, 0.0032] sds [0.0087, 0.0268]
+num clusters 5 exemplar size 10
+[ ] 01/11 acc 0.631 param C=0.1 kernel=rbf[ ] 02/11 acc 0.631 param C=0.1 kernel=rbf[ ] 03/11 acc 0.631 param C=0.1 kernel=rbf[ ] 04/11 acc 0.631 param C=0.1 kernel=rbf[ ] 05/11 acc 0.649 param C=1000 kernel=rbf[ ] 06/11 acc 0.657 param C=10000 kernel=rbf[ ] 07/11 acc 0.657 param C=10000 kernel=rbf[ ] 08/11 acc 0.657 param C=10000 kernel=rbf[ ] 09/11 acc 0.657 param C=10000 kernel=rbf[ ] 10/11 acc 0.657 param C=10000 kernel=rbf[-] 11/11 acc 0.657 param C=10000 kernel=rbf
+Finished data instance in 1441.8196811676025s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0252, 0.0147] sds [0.0297, 0.1253]
+num clusters 6 exemplar size 1
+[ ] 01/11 acc 0.604 param C=0.1 kernel=rbf[ ] 02/11 acc 0.604 param C=0.1 kernel=rbf[ ] 03/11 acc 0.607 param C=010 kernel=rbf[ ] 04/11 acc 0.662 param C=100 kernel=rbf[ ] 05/11 acc 0.662 param C=100 kernel=rbf[ ] 06/11 acc 0.662 param C=100 kernel=rbf[ ] 07/11 acc 0.662 param C=100 kernel=rbf[ ] 08/11 acc 0.662 param C=100 kernel=rbf[ ] 09/11 acc 0.662 param C=100 kernel=rbf[ ] 10/11 acc 0.662 param C=100 kernel=rbf[-] 11/11 acc 0.662 param C=100 kernel=rbf
+Finished data instance in 1452.0678033828735s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0252, 0.0147] sds [0.0297, 0.1253]
+num clusters 6 exemplar size 2
+[ ] 01/11 acc 0.604 param C=0.1 kernel=rbf[ ] 02/11 acc 0.604 param C=0.1 kernel=rbf[ ] 03/11 acc 0.607 param C=010 kernel=rbf[ ] 04/11 acc 0.662 param C=100 kernel=rbf[ ] 05/11 acc 0.662 param C=100 kernel=rbf[ ] 06/11 acc 0.662 param C=100 kernel=rbf[ ] 07/11 acc 0.662 param C=100 kernel=rbf[ ] 08/11 acc 0.662 param C=100 kernel=rbf[ ] 09/11 acc 0.662 param C=100 kernel=rbf[ ] 10/11 acc 0.662 param C=100 kernel=rbf[-] 11/11 acc 0.662 param C=100 kernel=rbf
+Finished data instance in 1461.9007079601288s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0114, 0.0061] sds [0.0144, 0.0453]
+num clusters 6 exemplar size 3
+[ ] 01/11 acc 0.622 param C=0.1 kernel=rbf[ ] 02/11 acc 0.622 param C=0.1 kernel=rbf[ ] 03/11 acc 0.622 param C=0.1 kernel=rbf[ ] 04/11 acc 0.637 param C=100 kernel=rbf[ ] 05/11 acc 0.697 param C=1000 kernel=rbf[ ] 06/11 acc 0.697 param C=1000 kernel=rbf[ ] 07/11 acc 0.697 param C=1000 kernel=rbf[ ] 08/11 acc 0.697 param C=1000 kernel=rbf[ ] 09/11 acc 0.697 param C=1000 kernel=rbf[ ] 10/11 acc 0.697 param C=1000 kernel=rbf[-] 11/11 acc 0.697 param C=1000 kernel=rbf
+Finished data instance in 1495.5115721225739s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0114, 0.0061] sds [0.0144, 0.0453]
+num clusters 6 exemplar size 4
+[ ] 01/11 acc 0.622 param C=0.1 kernel=rbf[ ] 02/11 acc 0.622 param C=0.1 kernel=rbf[ ] 03/11 acc 0.622 param C=0.1 kernel=rbf[ ] 04/11 acc 0.637 param C=100 kernel=rbf[ ] 05/11 acc 0.697 param C=1000 kernel=rbf[ ] 06/11 acc 0.697 param C=1000 kernel=rbf[ ] 07/11 acc 0.697 param C=1000 kernel=rbf[ ] 08/11 acc 0.697 param C=1000 kernel=rbf[ ] 09/11 acc 0.697 param C=1000 kernel=rbf[ ] 10/11 acc 0.697 param C=1000 kernel=rbf[-] 11/11 acc 0.697 param C=1000 kernel=rbf
+Finished data instance in 1528.9549238681793s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+num clusters 6 exemplar size 5
+[ ] 01/11 acc 0.614 param C=0.1 kernel=rbf[ ] 02/11 acc 0.614 param C=0.1 kernel=rbf[ ] 03/11 acc 0.614 param C=0.1 kernel=rbf[ ] 04/11 acc 0.614 param C=0.1 kernel=rbf[ ] 05/11 acc 0.671 param C=1000 kernel=rbf[ ] 06/11 acc 0.671 param C=1000 kernel=rbf[ ] 07/11 acc 0.671 param C=1000 kernel=rbf[ ] 08/11 acc 0.671 param C=1000 kernel=rbf[ ] 09/11 acc 0.671 param C=1000 kernel=rbf[ ] 10/11 acc 0.671 param C=1000 kernel=rbf[-] 11/11 acc 0.671 param C=1000 kernel=rbf
+Finished data instance in 1586.674967765808s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+num clusters 6 exemplar size 6
+[ ] 01/11 acc 0.614 param C=0.1 kernel=rbf[ ] 02/11 acc 0.614 param C=0.1 kernel=rbf[ ] 03/11 acc 0.614 param C=0.1 kernel=rbf[ ] 04/11 acc 0.614 param C=0.1 kernel=rbf[ ] 05/11 acc 0.671 param C=1000 kernel=rbf[ ] 06/11 acc 0.671 param C=1000 kernel=rbf[ ] 07/11 acc 0.671 param C=1000 kernel=rbf[ ] 08/11 acc 0.671 param C=1000 kernel=rbf[ ] 09/11 acc 0.671 param C=1000 kernel=rbf[ ] 10/11 acc 0.671 param C=1000 kernel=rbf[-] 11/11 acc 0.671 param C=1000 kernel=rbf
+Finished data instance in 1643.7356057167053s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0074, 0.0048] sds [0.0080, 0.0310]
+num clusters 6 exemplar size 7
+[ ] 01/11 acc 0.627 param C=0.1 kernel=rbf[ ] 02/11 acc 0.627 param C=0.1 kernel=rbf[ ] 03/11 acc 0.627 param C=0.1 kernel=rbf[ ] 04/11 acc 0.627 param C=0.1 kernel=rbf[ ] 05/11 acc 0.669 param C=1000 kernel=rbf[ ] 06/11 acc 0.669 param C=1000 kernel=rbf[ ] 07/11 acc 0.669 param C=1000 kernel=rbf[ ] 08/11 acc 0.669 param C=1000 kernel=rbf[ ] 09/11 acc 0.669 param C=1000 kernel=rbf[ ] 10/11 acc 0.669 param C=1000 kernel=rbf[-] 11/11 acc 0.669 param C=1000 kernel=rbf
+Finished data instance in 1722.914852142334s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0074, 0.0048] sds [0.0080, 0.0310]
+num clusters 6 exemplar size 8
+[ ] 01/11 acc 0.627 param C=0.1 kernel=rbf[ ] 02/11 acc 0.627 param C=0.1 kernel=rbf[ ] 03/11 acc 0.627 param C=0.1 kernel=rbf[ ] 04/11 acc 0.627 param C=0.1 kernel=rbf[ ] 05/11 acc 0.669 param C=1000 kernel=rbf[ ] 06/11 acc 0.669 param C=1000 kernel=rbf[ ] 07/11 acc 0.669 param C=1000 kernel=rbf[ ] 08/11 acc 0.669 param C=1000 kernel=rbf[ ] 09/11 acc 0.669 param C=1000 kernel=rbf[ ] 10/11 acc 0.669 param C=1000 kernel=rbf[-] 11/11 acc 0.669 param C=1000 kernel=rbf
+Finished data instance in 1801.4386940002441s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0048, 0.0037] sds [0.0078, 0.0248]
+num clusters 6 exemplar size 9
+[ ] 01/11 acc 0.622 param C=0.1 kernel=rbf[ ] 02/11 acc 0.622 param C=0.1 kernel=rbf[ ] 03/11 acc 0.622 param C=0.1 kernel=rbf[ ] 04/11 acc 0.622 param C=0.1 kernel=rbf[ ] 05/11 acc 0.656 param C=1000 kernel=rbf[ ] 06/11 acc 0.681 param C=10000 kernel=rbf[ ] 07/11 acc 0.681 param C=10000 kernel=rbf[ ] 08/11 acc 0.681 param C=10000 kernel=rbf[ ] 09/11 acc 0.681 param C=10000 kernel=rbf[ ] 10/11 acc 0.681 param C=10000 kernel=rbf[-] 11/11 acc 0.681 param C=10000 kernel=rbf
+Finished data instance in 1906.3752887248993s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV6-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0048, 0.0037] sds [0.0078, 0.0248]
+num clusters 6 exemplar size 10
+[ ] 01/11 acc 0.622 param C=0.1 kernel=rbf[ ] 02/11 acc 0.622 param C=0.1 kernel=rbf[ ] 03/11 acc 0.622 param C=0.1 kernel=rbf[ ] 04/11 acc 0.622 param C=0.1 kernel=rbf[ ] 05/11 acc 0.656 param C=1000 kernel=rbf[ ] 06/11 acc 0.681 param C=10000 kernel=rbf[ ] 07/11 acc 0.681 param C=10000 kernel=rbf[ ] 08/11 acc 0.681 param C=10000 kernel=rbf[ ] 09/11 acc 0.681 param C=10000 kernel=rbf[ ] 10/11 acc 0.681 param C=10000 kernel=rbf[-] 11/11 acc 0.681 param C=10000 kernel=rbf
+Finished data instance in 2012.784034729004s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0263, 0.0158] sds [0.0257, 0.1050]
+num clusters 7 exemplar size 1
+[ ] 01/11 acc 0.606 param C=0.1 kernel=rbf[ ] 02/11 acc 0.606 param C=0.1 kernel=rbf[ ] 03/11 acc 0.606 param C=0.1 kernel=rbf[ ] 04/11 acc 0.65 param C=100 kernel=rbf[ ] 05/11 acc 0.651 param C=1000 kernel=rbf[ ] 06/11 acc 0.653 param C=10000 kernel=rbf[ ] 07/11 acc 0.653 param C=10000 kernel=rbf[ ] 08/11 acc 0.653 param C=10000 kernel=rbf[ ] 09/11 acc 0.654 param C=1e+07 kernel=rbf[ ] 10/11 acc 0.654 param C=1e+07 kernel=rbf[-] 11/11 acc 0.654 param C=1e+07 kernel=rbf
+Finished data instance in 2023.7742004394531s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0263, 0.0158] sds [0.0257, 0.1050]
+num clusters 7 exemplar size 2
+[ ] 01/11 acc 0.606 param C=0.1 kernel=rbf[ ] 02/11 acc 0.606 param C=0.1 kernel=rbf[ ] 03/11 acc 0.606 param C=0.1 kernel=rbf[ ] 04/11 acc 0.65 param C=100 kernel=rbf[ ] 05/11 acc 0.651 param C=1000 kernel=rbf[ ] 06/11 acc 0.653 param C=10000 kernel=rbf[ ] 07/11 acc 0.653 param C=10000 kernel=rbf[ ] 08/11 acc 0.653 param C=10000 kernel=rbf[ ] 09/11 acc 0.654 param C=1e+07 kernel=rbf[ ] 10/11 acc 0.654 param C=1e+07 kernel=rbf[-] 11/11 acc 0.654 param C=1e+07 kernel=rbf
+Finished data instance in 2034.7124419212341s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0122, 0.0062] sds [0.0138, 0.0439]
+num clusters 7 exemplar size 3
+[ ] 01/11 acc 0.626 param C=0.1 kernel=rbf[ ] 02/11 acc 0.626 param C=0.1 kernel=rbf[ ] 03/11 acc 0.626 param C=0.1 kernel=rbf[ ] 04/11 acc 0.627 param C=100 kernel=rbf[ ] 05/11 acc 0.687 param C=1000 kernel=rbf[ ] 06/11 acc 0.687 param C=1000 kernel=rbf[ ] 07/11 acc 0.687 param C=1000 kernel=rbf[ ] 08/11 acc 0.687 param C=1000 kernel=rbf[ ] 09/11 acc 0.687 param C=1000 kernel=rbf[ ] 10/11 acc 0.687 param C=1000 kernel=rbf[-] 11/11 acc 0.687 param C=1000 kernel=rbf
+Finished data instance in 2072.905378818512s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0122, 0.0062] sds [0.0138, 0.0439]
+num clusters 7 exemplar size 4
+[ ] 01/11 acc 0.626 param C=0.1 kernel=rbf[ ] 02/11 acc 0.626 param C=0.1 kernel=rbf[ ] 03/11 acc 0.626 param C=0.1 kernel=rbf[ ] 04/11 acc 0.627 param C=100 kernel=rbf[ ] 05/11 acc 0.687 param C=1000 kernel=rbf[ ] 06/11 acc 0.687 param C=1000 kernel=rbf[ ] 07/11 acc 0.687 param C=1000 kernel=rbf[ ] 08/11 acc 0.687 param C=1000 kernel=rbf[ ] 09/11 acc 0.687 param C=1000 kernel=rbf[ ] 10/11 acc 0.687 param C=1000 kernel=rbf[-] 11/11 acc 0.687 param C=1000 kernel=rbf
+Finished data instance in 2111.7697274684906s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0080, 0.0044] sds [0.0100, 0.0337]
+num clusters 7 exemplar size 5
+[ ] 01/11 acc 0.604 param C=0.1 kernel=rbf[ ] 02/11 acc 0.604 param C=0.1 kernel=rbf[ ] 03/11 acc 0.604 param C=0.1 kernel=rbf[ ] 04/11 acc 0.604 param C=0.1 kernel=rbf[ ] 05/11 acc 0.666 param C=1000 kernel=rbf[ ] 06/11 acc 0.666 param C=1000 kernel=rbf[ ] 07/11 acc 0.666 param C=1000 kernel=rbf[ ] 08/11 acc 0.666 param C=1000 kernel=rbf[ ] 09/11 acc 0.666 param C=1000 kernel=rbf[ ] 10/11 acc 0.666 param C=1000 kernel=rbf[-] 11/11 acc 0.666 param C=1000 kernel=rbf
+Finished data instance in 2178.372251033783s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0080, 0.0044] sds [0.0100, 0.0337]
+num clusters 7 exemplar size 6
+[ ] 01/11 acc 0.604 param C=0.1 kernel=rbf[ ] 02/11 acc 0.604 param C=0.1 kernel=rbf[ ] 03/11 acc 0.604 param C=0.1 kernel=rbf[ ] 04/11 acc 0.604 param C=0.1 kernel=rbf[ ] 05/11 acc 0.666 param C=1000 kernel=rbf[ ] 06/11 acc 0.666 param C=1000 kernel=rbf[ ] 07/11 acc 0.666 param C=1000 kernel=rbf[ ] 08/11 acc 0.666 param C=1000 kernel=rbf[ ] 09/11 acc 0.666 param C=1000 kernel=rbf[ ] 10/11 acc 0.666 param C=1000 kernel=rbf[-] 11/11 acc 0.666 param C=1000 kernel=rbf
+Finished data instance in 2245.3626663684845s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0060, 0.0034] sds [0.0076, 0.0286]
+num clusters 7 exemplar size 7
+[ ] 01/11 acc 0.615 param C=0.1 kernel=rbf[ ] 02/11 acc 0.615 param C=0.1 kernel=rbf[ ] 03/11 acc 0.615 param C=0.1 kernel=rbf[ ] 04/11 acc 0.615 param C=0.1 kernel=rbf[ ] 05/11 acc 0.665 param C=1000 kernel=rbf[ ] 06/11 acc 0.671 param C=10000 kernel=rbf[ ] 07/11 acc 0.671 param C=10000 kernel=rbf[ ] 08/11 acc 0.671 param C=10000 kernel=rbf[ ] 09/11 acc 0.671 param C=10000 kernel=rbf[ ] 10/11 acc 0.671 param C=10000 kernel=rbf[-] 11/11 acc 0.671 param C=10000 kernel=rbf
+Finished data instance in 2340.6510219573975s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0060, 0.0034] sds [0.0076, 0.0286]
+num clusters 7 exemplar size 8
+[ ] 01/11 acc 0.615 param C=0.1 kernel=rbf[ ] 02/11 acc 0.615 param C=0.1 kernel=rbf[ ] 03/11 acc 0.615 param C=0.1 kernel=rbf[ ] 04/11 acc 0.615 param C=0.1 kernel=rbf[ ] 05/11 acc 0.665 param C=1000 kernel=rbf[ ] 06/11 acc 0.671 param C=10000 kernel=rbf[ ] 07/11 acc 0.671 param C=10000 kernel=rbf[ ] 08/11 acc 0.671 param C=10000 kernel=rbf[ ] 09/11 acc 0.671 param C=10000 kernel=rbf[ ] 10/11 acc 0.671 param C=10000 kernel=rbf[-] 11/11 acc 0.671 param C=10000 kernel=rbf
+Finished data instance in 2436.774083852768s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0041, 0.0044] sds [0.0075, 0.0222]
+num clusters 7 exemplar size 9
+[ ] 01/11 acc 0.625 param C=0.1 kernel=rbf[ ] 02/11 acc 0.625 param C=0.1 kernel=rbf[ ] 03/11 acc 0.625 param C=0.1 kernel=rbf[ ] 04/11 acc 0.625 param C=0.1 kernel=rbf[ ] 05/11 acc 0.658 param C=1000 kernel=rbf[ ] 06/11 acc 0.685 param C=10000 kernel=rbf[ ] 07/11 acc 0.685 param C=10000 kernel=rbf[ ] 08/11 acc 0.685 param C=10000 kernel=rbf[ ] 09/11 acc 0.685 param C=10000 kernel=rbf[ ] 10/11 acc 0.685 param C=10000 kernel=rbf[-] 11/11 acc 0.685 param C=10000 kernel=rbf
+Finished data instance in 2563.0119166374207s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV7-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0041, 0.0044] sds [0.0075, 0.0222]
+num clusters 7 exemplar size 10
+[ ] 01/11 acc 0.625 param C=0.1 kernel=rbf[ ] 02/11 acc 0.625 param C=0.1 kernel=rbf[ ] 03/11 acc 0.625 param C=0.1 kernel=rbf[ ] 04/11 acc 0.625 param C=0.1 kernel=rbf[ ] 05/11 acc 0.658 param C=1000 kernel=rbf[ ] 06/11 acc 0.685 param C=10000 kernel=rbf[ ] 07/11 acc 0.685 param C=10000 kernel=rbf[ ] 08/11 acc 0.685 param C=10000 kernel=rbf[ ] 09/11 acc 0.685 param C=10000 kernel=rbf[ ] 10/11 acc 0.685 param C=10000 kernel=rbf[-] 11/11 acc 0.685 param C=10000 kernel=rbf
+Finished data instance in 2689.524225473404s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0226, 0.0148] sds [0.0243, 0.1143]
+num clusters 8 exemplar size 1
+[ ] 01/11 acc 0.619 param C=0.1 kernel=rbf[ ] 02/11 acc 0.619 param C=0.1 kernel=rbf[ ] 03/11 acc 0.619 param C=0.1 kernel=rbf[ ] 04/11 acc 0.661 param C=100 kernel=rbf[ ] 05/11 acc 0.661 param C=100 kernel=rbf[ ] 06/11 acc 0.661 param C=100 kernel=rbf[ ] 07/11 acc 0.661 param C=100 kernel=rbf[ ] 08/11 acc 0.661 param C=100 kernel=rbf[ ] 09/11 acc 0.661 param C=100 kernel=rbf[ ] 10/11 acc 0.661 param C=100 kernel=rbf[-] 11/11 acc 0.661 param C=100 kernel=rbf
+Finished data instance in 2701.2748005390167s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0226, 0.0148] sds [0.0243, 0.1143]
+num clusters 8 exemplar size 2
+[ ] 01/11 acc 0.619 param C=0.1 kernel=rbf[ ] 02/11 acc 0.619 param C=0.1 kernel=rbf[ ] 03/11 acc 0.619 param C=0.1 kernel=rbf[ ] 04/11 acc 0.661 param C=100 kernel=rbf[ ] 05/11 acc 0.661 param C=100 kernel=rbf[ ] 06/11 acc 0.661 param C=100 kernel=rbf[ ] 07/11 acc 0.661 param C=100 kernel=rbf[ ] 08/11 acc 0.661 param C=100 kernel=rbf[ ] 09/11 acc 0.661 param C=100 kernel=rbf[ ] 10/11 acc 0.661 param C=100 kernel=rbf[-] 11/11 acc 0.661 param C=100 kernel=rbf
+Finished data instance in 2713.1500203609467s. Top performer:
+  cv acc 0.698 clusters 5 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+num clusters 8 exemplar size 3
+[ ] 01/11 acc 0.625 param C=0.1 kernel=rbf[ ] 02/11 acc 0.625 param C=0.1 kernel=rbf[ ] 03/11 acc 0.625 param C=0.1 kernel=rbf[ ] 04/11 acc 0.625 param C=0.1 kernel=rbf[ ] 05/11 acc 0.699 param C=1000 kernel=rbf[ ] 06/11 acc 0.699 param C=1000 kernel=rbf[ ] 07/11 acc 0.699 param C=1000 kernel=rbf[ ] 08/11 acc 0.699 param C=1000 kernel=rbf[ ] 09/11 acc 0.699 param C=1000 kernel=rbf[ ] 10/11 acc 0.699 param C=1000 kernel=rbf[-] 11/11 acc 0.699 param C=1000 kernel=rbf
+Finished data instance in 2756.0671620368958s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+num clusters 8 exemplar size 4
+[ ] 01/11 acc 0.625 param C=0.1 kernel=rbf[ ] 02/11 acc 0.625 param C=0.1 kernel=rbf[ ] 03/11 acc 0.625 param C=0.1 kernel=rbf[ ] 04/11 acc 0.625 param C=0.1 kernel=rbf[ ] 05/11 acc 0.699 param C=1000 kernel=rbf[ ] 06/11 acc 0.699 param C=1000 kernel=rbf[ ] 07/11 acc 0.699 param C=1000 kernel=rbf[ ] 08/11 acc 0.699 param C=1000 kernel=rbf[ ] 09/11 acc 0.699 param C=1000 kernel=rbf[ ] 10/11 acc 0.699 param C=1000 kernel=rbf[-] 11/11 acc 0.699 param C=1000 kernel=rbf
+Finished data instance in 2799.967654466629s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0064, 0.0057] sds [0.0095, 0.0275]
+num clusters 8 exemplar size 5
+[ ] 01/11 acc 0.609 param C=0.1 kernel=rbf[ ] 02/11 acc 0.609 param C=0.1 kernel=rbf[ ] 03/11 acc 0.609 param C=0.1 kernel=rbf[ ] 04/11 acc 0.609 param C=0.1 kernel=rbf[ ] 05/11 acc 0.662 param C=1000 kernel=rbf[ ] 06/11 acc 0.667 param C=10000 kernel=rbf[ ] 07/11 acc 0.667 param C=10000 kernel=rbf[ ] 08/11 acc 0.667 param C=10000 kernel=rbf[ ] 09/11 acc 0.667 param C=10000 kernel=rbf[ ] 10/11 acc 0.667 param C=10000 kernel=rbf[-] 11/11 acc 0.667 param C=10000 kernel=rbf
+Finished data instance in 2876.7199120521545s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0064, 0.0057] sds [0.0095, 0.0275]
+num clusters 8 exemplar size 6
+[ ] 01/11 acc 0.609 param C=0.1 kernel=rbf[ ] 02/11 acc 0.609 param C=0.1 kernel=rbf[ ] 03/11 acc 0.609 param C=0.1 kernel=rbf[ ] 04/11 acc 0.609 param C=0.1 kernel=rbf[ ] 05/11 acc 0.662 param C=1000 kernel=rbf[ ] 06/11 acc 0.667 param C=10000 kernel=rbf[ ] 07/11 acc 0.667 param C=10000 kernel=rbf[ ] 08/11 acc 0.667 param C=10000 kernel=rbf[ ] 09/11 acc 0.667 param C=10000 kernel=rbf[ ] 10/11 acc 0.667 param C=10000 kernel=rbf[-] 11/11 acc 0.667 param C=10000 kernel=rbf
+Finished data instance in 2954.24591588974s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0057, 0.0032] sds [0.0072, 0.0278]
+num clusters 8 exemplar size 7
+[ ] 01/11 acc 0.612 param C=0.1 kernel=rbf[ ] 02/11 acc 0.612 param C=0.1 kernel=rbf[ ] 03/11 acc 0.612 param C=0.1 kernel=rbf[ ] 04/11 acc 0.612 param C=0.1 kernel=rbf[ ] 05/11 acc 0.659 param C=1000 kernel=rbf[ ] 06/11 acc 0.663 param C=10000 kernel=rbf[ ] 07/11 acc 0.663 param C=10000 kernel=rbf[ ] 08/11 acc 0.663 param C=10000 kernel=rbf[ ] 09/11 acc 0.663 param C=10000 kernel=rbf[ ] 10/11 acc 0.663 param C=10000 kernel=rbf[-] 11/11 acc 0.663 param C=10000 kernel=rbf
+Finished data instance in 3065.9697563648224s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0057, 0.0032] sds [0.0072, 0.0278]
+num clusters 8 exemplar size 8
+[ ] 01/11 acc 0.612 param C=0.1 kernel=rbf[ ] 02/11 acc 0.612 param C=0.1 kernel=rbf[ ] 03/11 acc 0.612 param C=0.1 kernel=rbf[ ] 04/11 acc 0.612 param C=0.1 kernel=rbf[ ] 05/11 acc 0.659 param C=1000 kernel=rbf[ ] 06/11 acc 0.663 param C=10000 kernel=rbf[ ] 07/11 acc 0.663 param C=10000 kernel=rbf[ ] 08/11 acc 0.663 param C=10000 kernel=rbf[ ] 09/11 acc 0.663 param C=10000 kernel=rbf[ ] 10/11 acc 0.663 param C=10000 kernel=rbf[-] 11/11 acc 0.663 param C=10000 kernel=rbf
+Finished data instance in 3178.7662727832794s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0042, 0.0034] sds [0.0063, 0.0195]
+num clusters 8 exemplar size 9
+[ ] 01/11 acc 0.606 param C=0.1 kernel=rbf[ ] 02/11 acc 0.606 param C=0.1 kernel=rbf[ ] 03/11 acc 0.606 param C=0.1 kernel=rbf[ ] 04/11 acc 0.606 param C=0.1 kernel=rbf[ ] 05/11 acc 0.643 param C=1000 kernel=rbf[ ] 06/11 acc 0.664 param C=10000 kernel=rbf[ ] 07/11 acc 0.668 param C=100000 kernel=rbf[ ] 08/11 acc 0.668 param C=100000 kernel=rbf[ ] 09/11 acc 0.668 param C=100000 kernel=rbf[ ] 10/11 acc 0.668 param C=100000 kernel=rbf[-] 11/11 acc 0.668 param C=100000 kernel=rbf
+Finished data instance in 3334.2630162239075s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV8-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0042, 0.0034] sds [0.0063, 0.0195]
+num clusters 8 exemplar size 10
+[ ] 01/11 acc 0.606 param C=0.1 kernel=rbf[ ] 02/11 acc 0.606 param C=0.1 kernel=rbf[ ] 03/11 acc 0.606 param C=0.1 kernel=rbf[ ] 04/11 acc 0.606 param C=0.1 kernel=rbf[ ] 05/11 acc 0.643 param C=1000 kernel=rbf[ ] 06/11 acc 0.664 param C=10000 kernel=rbf[ ] 07/11 acc 0.668 param C=100000 kernel=rbf[ ] 08/11 acc 0.668 param C=100000 kernel=rbf[ ] 09/11 acc 0.668 param C=100000 kernel=rbf[ ] 10/11 acc 0.668 param C=100000 kernel=rbf[-] 11/11 acc 0.668 param C=100000 kernel=rbf
+Finished data instance in 3488.870761156082s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0228, 0.0134] sds [0.0229, 0.0931]
+num clusters 9 exemplar size 1
+[ ] 01/11 acc 0.621 param C=0.1 kernel=rbf[ ] 02/11 acc 0.621 param C=0.1 kernel=rbf[ ] 03/11 acc 0.621 param C=0.1 kernel=rbf[ ] 04/11 acc 0.667 param C=100 kernel=rbf[ ] 05/11 acc 0.669 param C=1000 kernel=rbf[ ] 06/11 acc 0.669 param C=1000 kernel=rbf[ ] 07/11 acc 0.669 param C=1000 kernel=rbf[ ] 08/11 acc 0.669 param C=1000 kernel=rbf[ ] 09/11 acc 0.669 param C=1000 kernel=rbf[ ] 10/11 acc 0.669 param C=1000 kernel=rbf[-] 11/11 acc 0.669 param C=1000 kernel=rbf
+Finished data instance in 3501.751950740814s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0228, 0.0134] sds [0.0229, 0.0931]
+num clusters 9 exemplar size 2
+[ ] 01/11 acc 0.621 param C=0.1 kernel=rbf[ ] 02/11 acc 0.621 param C=0.1 kernel=rbf[ ] 03/11 acc 0.621 param C=0.1 kernel=rbf[ ] 04/11 acc 0.667 param C=100 kernel=rbf[ ] 05/11 acc 0.669 param C=1000 kernel=rbf[ ] 06/11 acc 0.669 param C=1000 kernel=rbf[ ] 07/11 acc 0.669 param C=1000 kernel=rbf[ ] 08/11 acc 0.669 param C=1000 kernel=rbf[ ] 09/11 acc 0.669 param C=1000 kernel=rbf[ ] 10/11 acc 0.669 param C=1000 kernel=rbf[-] 11/11 acc 0.669 param C=1000 kernel=rbf
+Finished data instance in 3514.805431127548s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0113, 0.0059] sds [0.0113, 0.0421]
+num clusters 9 exemplar size 3
+[ ] 01/11 acc 0.625 param C=0.1 kernel=rbf[ ] 02/11 acc 0.625 param C=0.1 kernel=rbf[ ] 03/11 acc 0.625 param C=0.1 kernel=rbf[ ] 04/11 acc 0.625 param C=0.1 kernel=rbf[ ] 05/11 acc 0.695 param C=1000 kernel=rbf[ ] 06/11 acc 0.695 param C=1000 kernel=rbf[ ] 07/11 acc 0.695 param C=1000 kernel=rbf[ ] 08/11 acc 0.695 param C=1000 kernel=rbf[ ] 09/11 acc 0.695 param C=1000 kernel=rbf[ ] 10/11 acc 0.695 param C=1000 kernel=rbf[-] 11/11 acc 0.695 param C=1000 kernel=rbf
+Finished data instance in 3564.56440782547s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0113, 0.0059] sds [0.0113, 0.0421]
+num clusters 9 exemplar size 4
+[ ] 01/11 acc 0.625 param C=0.1 kernel=rbf[ ] 02/11 acc 0.625 param C=0.1 kernel=rbf[ ] 03/11 acc 0.625 param C=0.1 kernel=rbf[ ] 04/11 acc 0.625 param C=0.1 kernel=rbf[ ] 05/11 acc 0.695 param C=1000 kernel=rbf[ ] 06/11 acc 0.695 param C=1000 kernel=rbf[ ] 07/11 acc 0.695 param C=1000 kernel=rbf[ ] 08/11 acc 0.695 param C=1000 kernel=rbf[ ] 09/11 acc 0.695 param C=1000 kernel=rbf[ ] 10/11 acc 0.695 param C=1000 kernel=rbf[-] 11/11 acc 0.695 param C=1000 kernel=rbf
+Finished data instance in 3615.2003104686737s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0064, 0.0041] sds [0.0091, 0.0304]
+num clusters 9 exemplar size 5
+[ ] 01/11 acc 0.632 param C=0.1 kernel=rbf[ ] 02/11 acc 0.632 param C=0.1 kernel=rbf[ ] 03/11 acc 0.632 param C=0.1 kernel=rbf[ ] 04/11 acc 0.632 param C=0.1 kernel=rbf[ ] 05/11 acc 0.672 param C=1000 kernel=rbf[ ] 06/11 acc 0.687 param C=10000 kernel=rbf[ ] 07/11 acc 0.687 param C=10000 kernel=rbf[ ] 08/11 acc 0.687 param C=10000 kernel=rbf[ ] 09/11 acc 0.687 param C=10000 kernel=rbf[ ] 10/11 acc 0.687 param C=10000 kernel=rbf[-] 11/11 acc 0.687 param C=10000 kernel=rbf
+Finished data instance in 3703.105856657028s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0064, 0.0041] sds [0.0091, 0.0304]
+num clusters 9 exemplar size 6
+[ ] 01/11 acc 0.632 param C=0.1 kernel=rbf[ ] 02/11 acc 0.632 param C=0.1 kernel=rbf[ ] 03/11 acc 0.632 param C=0.1 kernel=rbf[ ] 04/11 acc 0.632 param C=0.1 kernel=rbf[ ] 05/11 acc 0.672 param C=1000 kernel=rbf[ ] 06/11 acc 0.687 param C=10000 kernel=rbf[ ] 07/11 acc 0.687 param C=10000 kernel=rbf[ ] 08/11 acc 0.687 param C=10000 kernel=rbf[ ] 09/11 acc 0.687 param C=10000 kernel=rbf[ ] 10/11 acc 0.687 param C=10000 kernel=rbf[-] 11/11 acc 0.687 param C=10000 kernel=rbf
+Finished data instance in 3791.0324149131775s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0057, 0.0032] sds [0.0065, 0.0272]
+num clusters 9 exemplar size 7
+[ ] 01/11 acc 0.61 param C=0.1 kernel=rbf[ ] 02/11 acc 0.61 param C=0.1 kernel=rbf[ ] 03/11 acc 0.61 param C=0.1 kernel=rbf[ ] 04/11 acc 0.61 param C=0.1 kernel=rbf[ ] 05/11 acc 0.657 param C=1000 kernel=rbf[ ] 06/11 acc 0.677 param C=10000 kernel=rbf[ ] 07/11 acc 0.677 param C=10000 kernel=rbf[ ] 08/11 acc 0.677 param C=10000 kernel=rbf[ ] 09/11 acc 0.677 param C=10000 kernel=rbf[ ] 10/11 acc 0.677 param C=10000 kernel=rbf[-] 11/11 acc 0.677 param C=10000 kernel=rbf
+Finished data instance in 3916.217558860779s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0057, 0.0032] sds [0.0065, 0.0272]
+num clusters 9 exemplar size 8
+[ ] 01/11 acc 0.61 param C=0.1 kernel=rbf[ ] 02/11 acc 0.61 param C=0.1 kernel=rbf[ ] 03/11 acc 0.61 param C=0.1 kernel=rbf[ ] 04/11 acc 0.61 param C=0.1 kernel=rbf[ ] 05/11 acc 0.657 param C=1000 kernel=rbf[ ] 06/11 acc 0.677 param C=10000 kernel=rbf[ ] 07/11 acc 0.677 param C=10000 kernel=rbf[ ] 08/11 acc 0.677 param C=10000 kernel=rbf[ ] 09/11 acc 0.677 param C=10000 kernel=rbf[ ] 10/11 acc 0.677 param C=10000 kernel=rbf[-] 11/11 acc 0.677 param C=10000 kernel=rbf
+Finished data instance in 4039.1310844421387s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0044, 0.0031] sds [0.0060, 0.0219]
+num clusters 9 exemplar size 9
+[ ] 01/11 acc 0.61 param C=0.1 kernel=rbf[ ] 02/11 acc 0.61 param C=0.1 kernel=rbf[ ] 03/11 acc 0.61 param C=0.1 kernel=rbf[ ] 04/11 acc 0.61 param C=0.1 kernel=rbf[ ] 05/11 acc 0.642 param C=1000 kernel=rbf[ ] 06/11 acc 0.675 param C=10000 kernel=rbf[ ] 07/11 acc 0.675 param C=10000 kernel=rbf[ ] 08/11 acc 0.675 param C=10000 kernel=rbf[ ] 09/11 acc 0.675 param C=10000 kernel=rbf[ ] 10/11 acc 0.675 param C=10000 kernel=rbf[-] 11/11 acc 0.675 param C=10000 kernel=rbf
+Finished data instance in 4209.408481121063s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV9-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0044, 0.0031] sds [0.0060, 0.0219]
+num clusters 9 exemplar size 10
+[ ] 01/11 acc 0.61 param C=0.1 kernel=rbf[ ] 02/11 acc 0.61 param C=0.1 kernel=rbf[ ] 03/11 acc 0.61 param C=0.1 kernel=rbf[ ] 04/11 acc 0.61 param C=0.1 kernel=rbf[ ] 05/11 acc 0.642 param C=1000 kernel=rbf[ ] 06/11 acc 0.675 param C=10000 kernel=rbf[ ] 07/11 acc 0.675 param C=10000 kernel=rbf[ ] 08/11 acc 0.675 param C=10000 kernel=rbf[ ] 09/11 acc 0.675 param C=10000 kernel=rbf[ ] 10/11 acc 0.675 param C=10000 kernel=rbf[-] 11/11 acc 0.675 param C=10000 kernel=rbf
+Finished data instance in 4380.9038598537445s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-1.mat
+N = 1000
+MFCC training feature ranges means [-0.0228, 0.0133] sds [0.0227, 0.0929]
+num clusters 10 exemplar size 1
+[ ] 01/11 acc 0.631 param C=0.1 kernel=rbf[ ] 02/11 acc 0.631 param C=0.1 kernel=rbf[ ] 03/11 acc 0.631 param C=0.1 kernel=rbf[ ] 04/11 acc 0.666 param C=100 kernel=rbf[ ] 05/11 acc 0.671 param C=1000 kernel=rbf[ ] 06/11 acc 0.671 param C=1000 kernel=rbf[ ] 07/11 acc 0.671 param C=1000 kernel=rbf[ ] 08/11 acc 0.671 param C=1000 kernel=rbf[ ] 09/11 acc 0.671 param C=1000 kernel=rbf[ ] 10/11 acc 0.671 param C=1000 kernel=rbf[-] 11/11 acc 0.671 param C=1000 kernel=rbf
+Finished data instance in 4394.921983718872s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-2.mat
+N = 1000
+MFCC training feature ranges means [-0.0228, 0.0133] sds [0.0227, 0.0929]
+num clusters 10 exemplar size 2
+[ ] 01/11 acc 0.631 param C=0.1 kernel=rbf[ ] 02/11 acc 0.631 param C=0.1 kernel=rbf[ ] 03/11 acc 0.631 param C=0.1 kernel=rbf[ ] 04/11 acc 0.666 param C=100 kernel=rbf[ ] 05/11 acc 0.671 param C=1000 kernel=rbf[ ] 06/11 acc 0.671 param C=1000 kernel=rbf[ ] 07/11 acc 0.671 param C=1000 kernel=rbf[ ] 08/11 acc 0.671 param C=1000 kernel=rbf[ ] 09/11 acc 0.671 param C=1000 kernel=rbf[ ] 10/11 acc 0.671 param C=1000 kernel=rbf[-] 11/11 acc 0.671 param C=1000 kernel=rbf
+Finished data instance in 4408.97126865387s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0109, 0.0055] sds [0.0108, 0.0397]
+num clusters 10 exemplar size 3
+[ ] 01/11 acc 0.621 param C=0.1 kernel=rbf[ ] 02/11 acc 0.621 param C=0.1 kernel=rbf[ ] 03/11 acc 0.621 param C=0.1 kernel=rbf[ ] 04/11 acc 0.621 param C=0.1 kernel=rbf[ ] 05/11 acc 0.689 param C=1000 kernel=rbf[ ] 06/11 acc 0.689 param C=1000 kernel=rbf[ ] 07/11 acc 0.689 param C=1000 kernel=rbf[ ] 08/11 acc 0.689 param C=1000 kernel=rbf[ ] 09/11 acc 0.689 param C=1000 kernel=rbf[ ] 10/11 acc 0.689 param C=1000 kernel=rbf[-] 11/11 acc 0.689 param C=1000 kernel=rbf
+Finished data instance in 4463.207238435745s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0109, 0.0055] sds [0.0108, 0.0397]
+num clusters 10 exemplar size 4
+[ ] 01/11 acc 0.621 param C=0.1 kernel=rbf[ ] 02/11 acc 0.621 param C=0.1 kernel=rbf[ ] 03/11 acc 0.621 param C=0.1 kernel=rbf[ ] 04/11 acc 0.621 param C=0.1 kernel=rbf[ ] 05/11 acc 0.689 param C=1000 kernel=rbf[ ] 06/11 acc 0.689 param C=1000 kernel=rbf[ ] 07/11 acc 0.689 param C=1000 kernel=rbf[ ] 08/11 acc 0.689 param C=1000 kernel=rbf[ ] 09/11 acc 0.689 param C=1000 kernel=rbf[ ] 10/11 acc 0.689 param C=1000 kernel=rbf[-] 11/11 acc 0.689 param C=1000 kernel=rbf
+Finished data instance in 4517.778676986694s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0059, 0.0048] sds [0.0084, 0.0250]
+num clusters 10 exemplar size 5
+[ ] 01/11 acc 0.632 param C=0.1 kernel=rbf[ ] 02/11 acc 0.632 param C=0.1 kernel=rbf[ ] 03/11 acc 0.632 param C=0.1 kernel=rbf[ ] 04/11 acc 0.632 param C=0.1 kernel=rbf[ ] 05/11 acc 0.682 param C=1000 kernel=rbf[ ] 06/11 acc 0.692 param C=10000 kernel=rbf[ ] 07/11 acc 0.695 param C=100000 kernel=rbf[ ] 08/11 acc 0.695 param C=100000 kernel=rbf[ ] 09/11 acc 0.695 param C=100000 kernel=rbf[ ] 10/11 acc 0.695 param C=100000 kernel=rbf[-] 11/11 acc 0.695 param C=100000 kernel=rbf
+Finished data instance in 4617.297425746918s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0059, 0.0048] sds [0.0084, 0.0250]
+num clusters 10 exemplar size 6
+[ ] 01/11 acc 0.632 param C=0.1 kernel=rbf[ ] 02/11 acc 0.632 param C=0.1 kernel=rbf[ ] 03/11 acc 0.632 param C=0.1 kernel=rbf[ ] 04/11 acc 0.632 param C=0.1 kernel=rbf[ ] 05/11 acc 0.682 param C=1000 kernel=rbf[ ] 06/11 acc 0.692 param C=10000 kernel=rbf[ ] 07/11 acc 0.695 param C=100000 kernel=rbf[ ] 08/11 acc 0.695 param C=100000 kernel=rbf[ ] 09/11 acc 0.695 param C=100000 kernel=rbf[ ] 10/11 acc 0.695 param C=100000 kernel=rbf[-] 11/11 acc 0.695 param C=100000 kernel=rbf
+Finished data instance in 4715.661729812622s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-7.mat
+N = 1000
+MFCC training feature ranges means [-0.0055, 0.0030] sds [0.0063, 0.0260]
+num clusters 10 exemplar size 7
+[ ] 01/11 acc 0.622 param C=0.1 kernel=rbf[ ] 02/11 acc 0.622 param C=0.1 kernel=rbf[ ] 03/11 acc 0.622 param C=0.1 kernel=rbf[ ] 04/11 acc 0.622 param C=0.1 kernel=rbf[ ] 05/11 acc 0.664 param C=1000 kernel=rbf[ ] 06/11 acc 0.675 param C=10000 kernel=rbf[ ] 07/11 acc 0.675 param C=10000 kernel=rbf[ ] 08/11 acc 0.675 param C=10000 kernel=rbf[ ] 09/11 acc 0.675 param C=10000 kernel=rbf[ ] 10/11 acc 0.675 param C=10000 kernel=rbf[-] 11/11 acc 0.675 param C=10000 kernel=rbf
+Finished data instance in 4856.487871646881s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-8.mat
+N = 1000
+MFCC training feature ranges means [-0.0055, 0.0030] sds [0.0063, 0.0260]
+num clusters 10 exemplar size 8
+[ ] 01/11 acc 0.622 param C=0.1 kernel=rbf[ ] 02/11 acc 0.622 param C=0.1 kernel=rbf[ ] 03/11 acc 0.622 param C=0.1 kernel=rbf[ ] 04/11 acc 0.622 param C=0.1 kernel=rbf[ ] 05/11 acc 0.664 param C=1000 kernel=rbf[ ] 06/11 acc 0.675 param C=10000 kernel=rbf[ ] 07/11 acc 0.675 param C=10000 kernel=rbf[ ] 08/11 acc 0.675 param C=10000 kernel=rbf[ ] 09/11 acc 0.675 param C=10000 kernel=rbf[ ] 10/11 acc 0.675 param C=10000 kernel=rbf[-] 11/11 acc 0.675 param C=10000 kernel=rbf
+Finished data instance in 4998.180281877518s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-9.mat
+N = 1000
+MFCC training feature ranges means [-0.0041, 0.0033] sds [0.0058, 0.0186]
+num clusters 10 exemplar size 9
+[ ] 01/11 acc 0.605 param C=0.1 kernel=rbf[ ] 02/11 acc 0.605 param C=0.1 kernel=rbf[ ] 03/11 acc 0.605 param C=0.1 kernel=rbf[ ] 04/11 acc 0.605 param C=0.1 kernel=rbf[ ] 05/11 acc 0.639 param C=1000 kernel=rbf[ ] 06/11 acc 0.679 param C=10000 kernel=rbf[ ] 07/11 acc 0.679 param C=10000 kernel=rbf[ ] 08/11 acc 0.679 param C=10000 kernel=rbf[ ] 09/11 acc 0.679 param C=10000 kernel=rbf[ ] 10/11 acc 0.679 param C=10000 kernel=rbf[-] 11/11 acc 0.679 param C=10000 kernel=rbf
+Finished data instance in 5190.900288820267s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Using existing FVs from file ../generated-fv/FV10-10.mat
+N = 1000
+MFCC training feature ranges means [-0.0041, 0.0033] sds [0.0058, 0.0186]
+num clusters 10 exemplar size 10
+[ ] 01/11 acc 0.605 param C=0.1 kernel=rbf[ ] 02/11 acc 0.605 param C=0.1 kernel=rbf[ ] 03/11 acc 0.605 param C=0.1 kernel=rbf[ ] 04/11 acc 0.605 param C=0.1 kernel=rbf[ ] 05/11 acc 0.639 param C=1000 kernel=rbf[ ] 06/11 acc 0.679 param C=10000 kernel=rbf[ ] 07/11 acc 0.679 param C=10000 kernel=rbf[ ] 08/11 acc 0.679 param C=10000 kernel=rbf[ ] 09/11 acc 0.679 param C=10000 kernel=rbf[ ] 10/11 acc 0.679 param C=10000 kernel=rbf[-] 11/11 acc 0.679 param C=10000 kernel=rbf
+Finished data instance in 5383.29591012001s. Top performer:
+  cv acc 0.6990000000000001 clusters 8 exemplar 3 C 1000 kernel rbf
+
+Done with CV for 1100-size hyper grid in 5383.295933s
