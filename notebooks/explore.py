@@ -68,7 +68,7 @@ for train, test in skf:
         itertools.chain([len(p)], range(500, len(p), 500)),
         logRange(0, 7))
     limit, C = run(trX, trY, hypers, lambda t: SVC(C=t[1]),
-                   lambda X, t: X[:, p[:t[0]]])
+                   lambda X, t: X[:, p[:t[0]]])[1]
 
     trX, teX = trX[:, p[:limit]], teX[:, p[:limit]]
     svm = SVC(C=C)
