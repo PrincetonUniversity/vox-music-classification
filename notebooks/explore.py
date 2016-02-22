@@ -51,7 +51,7 @@ t = time.time()
 
 
 X, Y = load_all_fv(num_clusters_mfcc, exemplar_size_mfcc)
-C, Y = load_all_fv(num_clusters_chroma, exemplar_size_chroma)
+C, Y = load_chroma_fv(num_clusters_chroma, exemplar_size_chroma)
 X = np.concatenate((X, C), axis=1)
 
 skf = StratifiedKFold(Y, n_folds=3, shuffle=True, random_state=1)
