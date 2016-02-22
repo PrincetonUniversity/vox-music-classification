@@ -15,7 +15,7 @@ def load_mfcc_labels(num_clusters, exemplar_size):
     LBs = '../generated-fv/LB.mat'
     assert isdir('../generated-fv') # Should be running in a project root subdir
     if not isfile(FVs) or not isfile(LBs):
-        print('Generating Fisher Vectors {} clusters {} exemplar'.format(
+        print('Generating mfcc Fisher Vectors {} clusters {} exemplar'.format(
             num_clusters, exemplar_size))
         cmd = 'matlab -nodisplay -nosplash -nodesktop -r '
         cmd += 'addpath(\'../tools\');FV_concat({},{});exit;'
@@ -128,3 +128,45 @@ def load_all_nonmfc():
         X = np.concatenate(pad(X))
         D[feature] = X
     return D
+
+def load_chroma_labels(num_clusters, exemplar_size):
+    """Returns a tuple chroma, labels of the chroma data and labels for the songs
+       given the cluster and exemplar parameters. """
+    FVs = '../generated-fv/FVC' + str(num_clusters) + '-' + str(exemplar_size) + '.mat'
+    LBs = '../generated-fv/LB.mat'
+    assert isdir('../generated-fv') # Should be running in a project root subdir
+    if not isfile(FVs) or not isfile(LBs):
+        print('Generating chroma Fisher Vectors {} clusters {} exemplar'.format(
+            num_clusters, exemplar_size))
+        cmd = 'matlab -nodisplay -nosplash -nodesktop -r '
+        cmd += 'addpath(\'../tools\');FV_concat_with_chroma({},{});exit;'
+        cmd = cmd.format(num_clusters, exemplar_size)
+        print('cmd:', cmd.split())
+        sys.stdout.flush()
+        process = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE,
+                                   stderr=subprocess.PIPE)
+        print('MATLAB output:\n' + process.communicate()[0].decode('utf-8'))
+    else:
+        print('Using existing FVs from file {}'.format(FVs))
+    mfcc = np.transpose(spio.loadmat(FVs)['FV'])
+    labels = spio.loadmat(LBs)['LB'][0]
+    return mfcc, labels
+
+def load_chroma_fv(num_clusters, exemplar_size):
+    """Loads the FV and runs basic validation, checking there are only
+    10 labels total. Does a shuffle."""
+    mfcc, labels = load_chroma_labels(num_clusters, exemplar_size)
+
+    N = len(mfcc)
+    nlabels = len(set(labels))
+    assert nlabels == 10
+    per_label = N // nlabels
+    for chunk in chunks(labels, per_label):
+        assert(len(set(chunk)) == 1)
+    print('N = {}'.format(N))
+
+    def summary(x): return '[{:.4f}, {:.4f}]'.format(x.min(), x.max())
+    print('chroma training feature ranges means {} sds {}'.format(
+        summary(np.mean(mfcc, axis=0)),
+        summary(np.std(mfcc, axis=0))))
+    return mfcc, labels
