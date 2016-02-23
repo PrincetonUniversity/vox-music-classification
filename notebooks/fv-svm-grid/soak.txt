@@ -1,0 +1,970 @@
+Running params for machine 0:
+[((8, 3), (8, 3)), ((8, 3), (3, 3)), ((8, 3), (4, 4)), ((8, 3), (5, 5)), ((8, 3), (6, 6)), ((8, 3), (7, 7)), ((8, 3), (8, 8)), ((8, 3), (9, 9)), ((8, 3), (10, 10)), ((8, 3), (11, 11)), ((8, 3), (3, 11)), ((8, 3), (4, 11)), ((8, 3), (5, 11)), ((8, 3), (6, 11)), ((8, 3), (7, 11)), ((8, 3), (8, 11)), ((8, 3), (9, 11)), ((8, 3), (10, 11)), ((8, 3), (11, 11)), ((8, 3), (12, 11)), ((8, 3), (13, 11)), ((8, 3), (14, 11)), ((8, 3), (15, 11)), ((8, 3), (16, 11)), ((8, 3), (17, 11)), ((8, 3), (18, 11)), ((8, 3), (19, 11)), ((8, 3), (20, 11)), ((8, 3), (21, 11)), ((8, 3), (22, 11)), ((8, 3), (23, 11)), ((8, 3), (24, 11)), ((8, 3), (25, 11)), ((8, 3), (26, 11)), ((8, 3), (27, 11)), ((8, 3), (28, 11)), ((8, 3), (29, 11)), ((8, 3), (30, 11)), ((3, 3), (8, 3)), ((3, 3), (3, 3)), ((3, 3), (4, 4)), ((3, 3), (5, 5)), ((3, 3), (6, 6)), ((3, 3), (7, 7)), ((3, 3), (8, 8)), ((3, 3), (9, 9)), ((3, 3), (10, 10)), ((3, 3), (11, 11)), ((3, 3), (3, 11)), ((3, 3), (4, 11)), ((3, 3), (5, 11)), ((3, 3), (6, 11)), ((3, 3), (7, 11)), ((3, 3), (8, 11)), ((3, 3), (9, 11)), ((3, 3), (10, 11)), ((3, 3), (11, 11)), ((3, 3), (12, 11)), ((3, 3), (13, 11)), ((3, 3), (14, 11)), ((3, 3), (15, 11)), ((3, 3), (16, 11)), ((3, 3), (17, 11)), ((3, 3), (18, 11)), ((3, 3), (19, 11)), ((3, 3), (20, 11)), ((3, 3), (21, 11)), ((3, 3), (22, 11)), ((3, 3), (23, 11)), ((3, 3), (24, 11)), ((3, 3), (25, 11)), ((3, 3), (26, 11)), ((3, 3), (27, 11)), ((3, 3), (28, 11)), ((3, 3), (29, 11)), ((3, 3), (30, 11)), ((4, 4), (8, 3)), ((4, 4), (3, 3)), ((4, 4), (4, 4)), ((4, 4), (5, 5)), ((4, 4), (6, 6)), ((4, 4), (7, 7)), ((4, 4), (8, 8)), ((4, 4), (9, 9)), ((4, 4), (10, 10)), ((4, 4), (11, 11)), ((4, 4), (3, 11)), ((4, 4), (4, 11)), ((4, 4), (5, 11)), ((4, 4), (6, 11)), ((4, 4), (7, 11)), ((4, 4), (8, 11)), ((4, 4), (9, 11)), ((4, 4), (10, 11)), ((4, 4), (11, 11)), ((4, 4), (12, 11)), ((4, 4), (13, 11)), ((4, 4), (14, 11)), ((4, 4), (15, 11)), ((4, 4), (16, 11)), ((4, 4), (17, 11)), ((4, 4), (18, 11)), ((4, 4), (19, 11)), ((4, 4), (20, 11)), ((4, 4), (21, 11)), ((4, 4), (22, 11)), ((4, 4), (23, 11)), ((4, 4), (24, 11)), ((4, 4), (25, 11)), ((4, 4), (26, 11)), ((4, 4), (27, 11)), ((4, 4), (28, 11)), ((4, 4), (29, 11)), ((4, 4), (30, 11)), ((5, 5), (8, 3)), ((5, 5), (3, 3)), ((5, 5), (4, 4)), ((5, 5), (5, 5)), ((5, 5), (6, 6)), ((5, 5), (7, 7)), ((5, 5), (8, 8)), ((5, 5), (9, 9)), ((5, 5), (10, 10)), ((5, 5), (11, 11)), ((5, 5), (3, 11)), ((5, 5), (4, 11)), ((5, 5), (5, 11)), ((5, 5), (6, 11)), ((5, 5), (7, 11)), ((5, 5), (8, 11)), ((5, 5), (9, 11)), ((5, 5), (10, 11)), ((5, 5), (11, 11)), ((5, 5), (12, 11)), ((5, 5), (13, 11)), ((5, 5), (14, 11)), ((5, 5), (15, 11)), ((5, 5), (16, 11)), ((5, 5), (17, 11)), ((5, 5), (18, 11)), ((5, 5), (19, 11)), ((5, 5), (20, 11)), ((5, 5), (21, 11)), ((5, 5), (22, 11)), ((5, 5), (23, 11)), ((5, 5), (24, 11)), ((5, 5), (25, 11)), ((5, 5), (26, 11)), ((5, 5), (27, 11)), ((5, 5), (28, 11)), ((5, 5), (29, 11)), ((5, 5), (30, 11)), ((6, 6), (8, 3)), ((6, 6), (3, 3)), ((6, 6), (4, 4)), ((6, 6), (5, 5)), ((6, 6), (6, 6)), ((6, 6), (7, 7)), ((6, 6), (8, 8)), ((6, 6), (9, 9)), ((6, 6), (10, 10)), ((6, 6), (11, 11)), ((6, 6), (3, 11)), ((6, 6), (4, 11)), ((6, 6), (5, 11)), ((6, 6), (6, 11)), ((6, 6), (7, 11)), ((6, 6), (8, 11)), ((6, 6), (9, 11)), ((6, 6), (10, 11)), ((6, 6), (11, 11)), ((6, 6), (12, 11)), ((6, 6), (13, 11)), ((6, 6), (14, 11)), ((6, 6), (15, 11)), ((6, 6), (16, 11)), ((6, 6), (17, 11)), ((6, 6), (18, 11)), ((6, 6), (19, 11)), ((6, 6), (20, 11)), ((6, 6), (21, 11)), ((6, 6), (22, 11)), ((6, 6), (23, 11)), ((6, 6), (24, 11)), ((6, 6), (25, 11)), ((6, 6), (26, 11)), ((6, 6), (27, 11)), ((6, 6), (28, 11)), ((6, 6), (29, 11)), ((6, 6), (30, 11)), ((7, 7), (8, 3)), ((7, 7), (3, 3)), ((7, 7), (4, 4)), ((7, 7), (5, 5)), ((7, 7), (6, 6)), ((7, 7), (7, 7)), ((7, 7), (8, 8)), ((7, 7), (9, 9)), ((7, 7), (10, 10)), ((7, 7), (11, 11)), ((7, 7), (3, 11)), ((7, 7), (4, 11)), ((7, 7), (5, 11)), ((7, 7), (6, 11)), ((7, 7), (7, 11)), ((7, 7), (8, 11)), ((7, 7), (9, 11)), ((7, 7), (10, 11)), ((7, 7), (11, 11)), ((7, 7), (12, 11)), ((7, 7), (13, 11)), ((7, 7), (14, 11)), ((7, 7), (15, 11)), ((7, 7), (16, 11)), ((7, 7), (17, 11)), ((7, 7), (18, 11)), ((7, 7), (19, 11)), ((7, 7), (20, 11)), ((7, 7), (21, 11)), ((7, 7), (22, 11)), ((7, 7), (23, 11)), ((7, 7), (24, 11)), ((7, 7), (25, 11)), ((7, 7), (26, 11)), ((7, 7), (27, 11)), ((7, 7), (28, 11)), ((7, 7), (29, 11)), ((7, 7), (30, 11)), ((8, 8), (8, 3)), ((8, 8), (3, 3)), ((8, 8), (4, 4)), ((8, 8), (5, 5)), ((8, 8), (6, 6)), ((8, 8), (7, 7)), ((8, 8), (8, 8)), ((8, 8), (9, 9)), ((8, 8), (10, 10)), ((8, 8), (11, 11)), ((8, 8), (3, 11)), ((8, 8), (4, 11)), ((8, 8), (5, 11)), ((8, 8), (6, 11)), ((8, 8), (7, 11)), ((8, 8), (8, 11)), ((8, 8), (9, 11)), ((8, 8), (10, 11)), ((8, 8), (11, 11)), ((8, 8), (12, 11)), ((8, 8), (13, 11)), ((8, 8), (14, 11)), ((8, 8), (15, 11)), ((8, 8), (16, 11)), ((8, 8), (17, 11)), ((8, 8), (18, 11)), ((8, 8), (19, 11)), ((8, 8), (20, 11)), ((8, 8), (21, 11)), ((8, 8), (22, 11)), ((8, 8), (23, 11)), ((8, 8), (24, 11)), ((8, 8), (25, 11)), ((8, 8), (26, 11)), ((8, 8), (27, 11)), ((8, 8), (28, 11)), ((8, 8), (29, 11)), ((8, 8), (30, 11))]
+starting ((8, 3), (8, 3))
+starting ((8, 3), (4, 4))
+starting ((8, 3), (6, 6))
+starting ((8, 3), (8, 8))
+starting ((8, 3), (10, 10))
+starting ((8, 3), (3, 11))
+starting ((8, 3), (5, 11))
+starting ((8, 3), (7, 11))
+starting ((8, 3), (9, 11))
+starting ((8, 3), (11, 11))
+starting ((8, 3), (13, 11))
+starting ((8, 3), (15, 11))
+starting ((8, 3), (17, 11))
+starting ((8, 3), (19, 11))
+starting ((8, 3), (21, 11))
+starting ((8, 3), (23, 11))
+starting ((8, 3), (25, 11))
+starting ((8, 3), (27, 11))
+starting ((8, 3), (29, 11))
+starting ((3, 3), (8, 3))
+starting ((3, 3), (4, 4))
+starting ((3, 3), (6, 6))
+starting ((3, 3), (8, 8))
+starting ((3, 3), (10, 10))
+starting ((3, 3), (3, 11))
+starting ((3, 3), (5, 11))
+starting ((3, 3), (7, 11))
+starting ((3, 3), (11, 11))
+starting ((3, 3), (13, 11))
+starting ((3, 3), (9, 11))
+starting ((3, 3), (15, 11))
+starting ((3, 3), (17, 11))
+starting ((3, 3), (19, 11))
+starting ((3, 3), (21, 11))
+starting ((3, 3), (23, 11))
+starting ((3, 3), (25, 11))
+starting ((3, 3), (27, 11))
+starting ((3, 3), (29, 11))
+starting ((4, 4), (8, 3))
+starting ((4, 4), (4, 4))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC6-6.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0075] sds [0.0151, 0.0410]
+finished ((8, 3), (6, 6)) acc 0.703205128205 prop 0.21
+starting ((8, 3), (7, 7))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC7-11.mat
+N = 1000
+chroma training feature ranges means [-0.0037, 0.0034] sds [0.0099, 0.0256]
+finished ((3, 3), (7, 11)) acc 0.694951923077 prop 0.26
+starting ((3, 3), (8, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC7-11.mat
+N = 1000
+chroma training feature ranges means [-0.0037, 0.0034] sds [0.0099, 0.0256]
+finished ((8, 3), (7, 11)) acc 0.716987179487 prop 0.21
+starting ((8, 3), (8, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC8-3.mat
+N = 1000
+chroma training feature ranges means [-0.0079, 0.0084] sds [0.0170, 0.0492]
+finished ((8, 3), (8, 3)) acc 0.713060897436 prop 0.31
+starting ((8, 3), (3, 3))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC9-11.mat
+N = 1000
+chroma training feature ranges means [-0.0034, 0.0030] sds [0.0076, 0.0233]
+finished ((8, 3), (9, 11)) acc 0.721794871795 prop 0.21
+starting ((8, 3), (10, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC5-11.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0043] sds [0.0125, 0.0287]
+finished ((8, 3), (5, 11)) acc 0.721314102564 prop 0.31
+starting ((8, 3), (6, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC8-8.mat
+N = 1000
+chroma training feature ranges means [-0.0052, 0.0048] sds [0.0105, 0.0292]
+finished ((8, 3), (8, 8)) acc 0.725641025641 prop 0.31
+starting ((8, 3), (9, 9))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC19-11.mat
+N = 1000
+chroma training feature ranges means [-0.0039, 0.0016] sds [0.0028, 0.0148]
+finished ((8, 3), (19, 11)) acc 0.739102564103 prop 0.16
+starting ((8, 3), (20, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC3-11.mat
+N = 1000
+chroma training feature ranges means [-0.0074, 0.0067] sds [0.0174, 0.0344]
+finished ((8, 3), (3, 11)) acc 0.704407051282 prop 0.36
+starting ((8, 3), (4, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC4-4.mat
+N = 1000
+chroma training feature ranges means [-0.0108, 0.0109] sds [0.0280, 0.0619]
+finished ((8, 3), (4, 4)) acc 0.707692307692 prop 0.46
+starting ((8, 3), (5, 5))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC15-11.mat
+N = 1000
+chroma training feature ranges means [-0.0027, 0.0020] sds [0.0054, 0.0171]
+finished ((8, 3), (15, 11)) acc 0.730288461538 prop 0.21
+starting ((8, 3), (16, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC10-10.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0032] sds [0.0082, 0.0213]
+finished ((8, 3), (10, 10)) acc 0.725080128205 prop 0.31
+starting ((8, 3), (11, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC3-3.mat
+N = 1000
+chroma training feature ranges means [-0.0107, 0.0108] sds [0.0376, 0.0670]
+finished ((8, 3), (3, 3)) acc 0.703365384615 prop 0.26
+starting ((4, 4), (6, 6))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC10-10.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0032] sds [0.0082, 0.0213]
+finished ((3, 3), (10, 10)) acc 0.70328525641 prop 0.41
+starting ((3, 3), (11, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC5-11.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0043] sds [0.0125, 0.0287]
+finished ((3, 3), (5, 11)) acc 0.691185897436 prop 0.51
+starting ((3, 3), (6, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC9-11.mat
+N = 1000
+chroma training feature ranges means [-0.0034, 0.0030] sds [0.0076, 0.0233]
+finished ((3, 3), (9, 11)) acc 0.702403846154 prop 0.41
+starting ((3, 3), (10, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC8-11.mat
+N = 1000
+chroma training feature ranges means [-0.0035, 0.0037] sds [0.0084, 0.0246]
+finished ((3, 3), (8, 11)) acc 0.692387820513 prop 0.31
+starting ((4, 4), (8, 8))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC13-11.mat
+N = 1000
+chroma training feature ranges means [-0.0026, 0.0021] sds [0.0067, 0.0183]
+finished ((3, 3), (13, 11)) acc 0.71546474359 prop 0.36
+starting ((3, 3), (14, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC4-11.mat
+N = 1000
+chroma training feature ranges means [-0.0047, 0.0055] sds [0.0132, 0.0295]
+finished ((8, 3), (4, 11)) acc 0.706169871795 prop 0.26
+starting ((4, 4), (10, 10))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC7-7.mat
+N = 1000
+chroma training feature ranges means [-0.0056, 0.0056] sds [0.0120, 0.0306]
+finished ((8, 3), (7, 7)) acc 0.736939102564 prop 0.36
+starting ((4, 4), (3, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC15-11.mat
+N = 1000
+chroma training feature ranges means [-0.0027, 0.0020] sds [0.0054, 0.0171]
+finished ((3, 3), (15, 11)) acc 0.703445512821 prop 0.36
+starting ((3, 3), (16, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC5-5.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0082] sds [0.0170, 0.0437]
+finished ((8, 3), (5, 5)) acc 0.703205128205 prop 0.31
+starting ((4, 4), (5, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC10-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0068, 0.0225]
+finished ((3, 3), (10, 11)) acc 0.702403846154 prop 0.26
+starting ((4, 4), (7, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC6-11.mat
+N = 1000
+chroma training feature ranges means [-0.0040, 0.0047] sds [0.0095, 0.0266]
+finished ((3, 3), (6, 11)) acc 0.704407051282 prop 0.36
+starting ((4, 4), (9, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC10-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0068, 0.0225]
+finished ((8, 3), (10, 11)) acc 0.732612179487 prop 0.31
+starting ((4, 4), (11, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC17-11.mat
+N = 1000
+chroma training feature ranges means [-0.0023, 0.0019] sds [0.0049, 0.0154]
+finished ((8, 3), (17, 11)) acc 0.745272435897 prop 0.31
+starting ((8, 3), (18, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC23-11.mat
+N = 1000
+chroma training feature ranges means [-0.0046, 0.0017] sds [0.0035, 0.0139]
+finished ((8, 3), (23, 11)) acc 0.739102564103 prop 0.26
+starting ((8, 3), (24, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC16-11.mat
+N = 1000
+chroma training feature ranges means [-0.0024, 0.0018] sds [0.0049, 0.0167]
+finished ((8, 3), (16, 11)) acc 0.732211538462 prop 0.21
+starting ((4, 4), (13, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC6-6.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0075] sds [0.0151, 0.0410]
+finished ((4, 4), (6, 6)) acc 0.693349358974 prop 0.31
+starting ((4, 4), (7, 7))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC3-11.mat
+N = 1000
+chroma training feature ranges means [-0.0074, 0.0067] sds [0.0174, 0.0344]
+finished ((3, 3), (3, 11)) acc 0.68766025641 prop 0.31
+starting ((3, 3), (4, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC6-11.mat
+N = 1000
+chroma training feature ranges means [-0.0040, 0.0047] sds [0.0095, 0.0266]
+finished ((8, 3), (6, 11)) acc 0.727163461538 prop 0.41
+starting ((4, 4), (15, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC3-11.mat
+N = 1000
+chroma training feature ranges means [-0.0074, 0.0067] sds [0.0174, 0.0344]
+finished ((4, 4), (3, 11)) acc 0.682451923077 prop 0.21
+starting ((4, 4), (4, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC27-11.mat
+N = 1000
+chroma training feature ranges means [-0.0043, 0.0015] sds [0.0024, 0.0133]
+finished ((8, 3), (27, 11)) acc 0.742227564103 prop 0.26
+starting ((8, 3), (28, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((3, 3), (11, 11)) acc 0.705528846154 prop 0.36
+starting ((4, 4), (17, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC6-6.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0075] sds [0.0151, 0.0410]
+finished ((3, 3), (6, 6)) acc 0.681169871795 prop 0.26
+starting ((3, 3), (7, 7))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC21-11.mat
+N = 1000
+chroma training feature ranges means [-0.0042, 0.0018] sds [0.0032, 0.0140]
+finished ((8, 3), (21, 11)) acc 0.741346153846 prop 0.31
+starting ((8, 3), (22, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC7-11.mat
+N = 1000
+chroma training feature ranges means [-0.0037, 0.0034] sds [0.0099, 0.0256]
+finished ((4, 4), (7, 11)) acc 0.693349358974 prop 0.31
+starting ((4, 4), (8, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC7-7.mat
+N = 1000
+chroma training feature ranges means [-0.0056, 0.0056] sds [0.0120, 0.0306]
+finished ((4, 4), (7, 7)) acc 0.683253205128 prop 0.21
+starting ((4, 4), (19, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC29-11.mat
+N = 1000
+chroma training feature ranges means [-0.0041, 0.0015] sds [0.0021, 0.0130]
+finished ((3, 3), (29, 11)) acc 0.718509615385 prop 0.31
+starting ((3, 3), (30, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC4-11.mat
+N = 1000
+chroma training feature ranges means [-0.0047, 0.0055] sds [0.0132, 0.0295]
+finished ((3, 3), (4, 11)) acc 0.685657051282 prop 0.26
+starting ((4, 4), (21, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC8-11.mat
+N = 1000
+chroma training feature ranges means [-0.0035, 0.0037] sds [0.0084, 0.0246]
+finished ((8, 3), (8, 11)) acc 0.731570512821 prop 0.46
+starting ((4, 4), (23, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC9-9.mat
+N = 1000
+chroma training feature ranges means [-0.0036, 0.0034] sds [0.0097, 0.0230]
+finished ((8, 3), (9, 9)) acc 0.725320512821 prop 0.46
+starting ((4, 4), (25, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC9-11.mat
+N = 1000
+chroma training feature ranges means [-0.0034, 0.0030] sds [0.0076, 0.0233]
+finished ((4, 4), (9, 11)) acc 0.708253205128 prop 0.31
+starting ((4, 4), (10, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((8, 3), (11, 11)) acc 0.740304487179 prop 0.36
+starting ((4, 4), (27, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC14-11.mat
+N = 1000
+chroma training feature ranges means [-0.0045, 0.0025] sds [0.0038, 0.0176]
+finished ((3, 3), (14, 11)) acc 0.718429487179 prop 0.36
+starting ((4, 4), (29, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC25-11.mat
+N = 1000
+chroma training feature ranges means [-0.0047, 0.0016] sds [0.0034, 0.0135]
+finished ((8, 3), (25, 11)) acc 0.740224358974 prop 0.31
+starting ((8, 3), (26, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((4, 4), (11, 11)) acc 0.710256410256 prop 0.31
+starting ((4, 4), (12, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC8-11.mat
+N = 1000
+chroma training feature ranges means [-0.0035, 0.0037] sds [0.0084, 0.0246]
+finished ((4, 4), (8, 11)) acc 0.693669871795 prop 0.26
+starting ((5, 5), (8, 3))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC7-7.mat
+N = 1000
+chroma training feature ranges means [-0.0056, 0.0056] sds [0.0120, 0.0306]
+finished ((3, 3), (7, 7)) acc 0.695592948718 prop 0.41
+starting ((5, 5), (4, 4))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC19-11.mat
+N = 1000
+chroma training feature ranges means [-0.0039, 0.0016] sds [0.0028, 0.0148]
+finished ((3, 3), (19, 11)) acc 0.713621794872 prop 0.46
+starting ((3, 3), (20, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC10-10.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0032] sds [0.0082, 0.0213]
+finished ((4, 4), (10, 10)) acc 0.705048076923 prop 0.51
+starting ((4, 4), (11, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC20-11.mat
+N = 1000
+chroma training feature ranges means [-0.0040, 0.0016] sds [0.0032, 0.0143]
+finished ((8, 3), (20, 11)) acc 0.747916666667 prop 0.31
+starting ((5, 5), (6, 6))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC17-11.mat
+N = 1000
+chroma training feature ranges means [-0.0023, 0.0019] sds [0.0049, 0.0154]
+finished ((3, 3), (17, 11)) acc 0.711458333333 prop 0.51
+starting ((3, 3), (18, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC18-11.mat
+N = 1000
+chroma training feature ranges means [-0.0039, 0.0017] sds [0.0035, 0.0151]
+finished ((8, 3), (18, 11)) acc 0.737259615385 prop 0.26
+starting ((5, 5), (8, 8))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC13-11.mat
+N = 1000
+chroma training feature ranges means [-0.0026, 0.0021] sds [0.0067, 0.0183]
+finished ((4, 4), (13, 11)) acc 0.70921474359 prop 0.36
+starting ((4, 4), (14, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC27-11.mat
+N = 1000
+chroma training feature ranges means [-0.0043, 0.0015] sds [0.0024, 0.0133]
+finished ((3, 3), (27, 11)) acc 0.725240384615 prop 0.41
+starting ((3, 3), (28, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((3, 3), (11, 11)) acc 0.715144230769 prop 0.71
+starting ((3, 3), (12, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((4, 4), (11, 11)) acc 0.712179487179 prop 0.26
+starting ((5, 5), (10, 10))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC29-11.mat
+N = 1000
+chroma training feature ranges means [-0.0041, 0.0015] sds [0.0021, 0.0130]
+finished ((4, 4), (29, 11)) acc 0.716907051282 prop 0.16
+starting ((4, 4), (30, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC6-6.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0075] sds [0.0151, 0.0410]
+finished ((5, 5), (6, 6)) acc 0.717628205128 prop 0.36
+starting ((5, 5), (7, 7))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC10-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0068, 0.0225]
+finished ((4, 4), (10, 11)) acc 0.702163461538 prop 0.41
+starting ((5, 5), (3, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC19-11.mat
+N = 1000
+chroma training feature ranges means [-0.0039, 0.0016] sds [0.0028, 0.0148]
+finished ((4, 4), (19, 11)) acc 0.712259615385 prop 0.31
+starting ((4, 4), (20, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC8-3.mat
+N = 1000
+chroma training feature ranges means [-0.0079, 0.0084] sds [0.0170, 0.0492]
+finished ((5, 5), (8, 3)) acc 0.716987179487 prop 0.51
+starting ((5, 5), (3, 3))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC16-11.mat
+N = 1000
+chroma training feature ranges means [-0.0024, 0.0018] sds [0.0049, 0.0167]
+finished ((3, 3), (16, 11)) acc 0.706570512821 prop 0.51
+starting ((5, 5), (5, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC23-11.mat
+N = 1000
+chroma training feature ranges means [-0.0046, 0.0017] sds [0.0035, 0.0139]
+finished ((3, 3), (23, 11)) acc 0.719150641026 prop 0.51
+starting ((3, 3), (24, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC8-8.mat
+N = 1000
+chroma training feature ranges means [-0.0052, 0.0048] sds [0.0105, 0.0292]
+finished ((5, 5), (8, 8)) acc 0.708493589744 prop 0.36
+starting ((5, 5), (9, 9))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC30-11.mat
+N = 1000
+chroma training feature ranges means [-0.0041, 0.0012] sds [0.0021, 0.0128]
+finished ((3, 3), (30, 11)) acc 0.721394230769 prop 0.26
+starting ((5, 5), (7, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC7-7.mat
+N = 1000
+chroma training feature ranges means [-0.0056, 0.0056] sds [0.0120, 0.0306]
+finished ((5, 5), (7, 7)) acc 0.713381410256 prop 0.26
+starting ((5, 5), (9, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC12-11.mat
+N = 1000
+chroma training feature ranges means [-0.0029, 0.0023] sds [0.0068, 0.0186]
+finished ((3, 3), (12, 11)) acc 0.7 prop 0.26
+starting ((5, 5), (11, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC4-4.mat
+N = 1000
+chroma training feature ranges means [-0.0108, 0.0109] sds [0.0280, 0.0619]
+finished ((5, 5), (4, 4)) acc 0.704086538462 prop 0.51
+starting ((5, 5), (5, 5))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC28-11.mat
+N = 1000
+chroma training feature ranges means [-0.0040, 0.0012] sds [0.0024, 0.0132]
+finished ((8, 3), (28, 11)) acc 0.745993589744 prop 0.26
+starting ((5, 5), (13, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((8, 3), (11, 11)) acc 0.736137820513 prop 0.66
+starting ((8, 3), (12, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC13-11.mat
+N = 1000
+chroma training feature ranges means [-0.0026, 0.0021] sds [0.0067, 0.0183]
+finished ((8, 3), (13, 11)) acc 0.736378205128 prop 0.61
+starting ((8, 3), (14, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC22-11.mat
+N = 1000
+chroma training feature ranges means [-0.0038, 0.0016] sds [0.0032, 0.0139]
+finished ((8, 3), (22, 11)) acc 0.742708333333 prop 0.31
+starting ((5, 5), (15, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC21-11.mat
+N = 1000
+chroma training feature ranges means [-0.0042, 0.0018] sds [0.0032, 0.0140]
+finished ((4, 4), (21, 11)) acc 0.726121794872 prop 0.36
+starting ((4, 4), (22, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC3-11.mat
+N = 1000
+chroma training feature ranges means [-0.0074, 0.0067] sds [0.0174, 0.0344]
+finished ((5, 5), (3, 11)) acc 0.700400641026 prop 0.41
+starting ((5, 5), (4, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC12-11.mat
+N = 1000
+chroma training feature ranges means [-0.0029, 0.0023] sds [0.0068, 0.0186]
+finished ((4, 4), (12, 11)) acc 0.718189102564 prop 0.46
+starting ((5, 5), (17, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC20-11.mat
+N = 1000
+chroma training feature ranges means [-0.0040, 0.0016] sds [0.0032, 0.0143]
+finished ((3, 3), (20, 11)) acc 0.712740384615 prop 0.36
+starting ((5, 5), (19, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((5, 5), (11, 11)) acc 0.716266025641 prop 0.16
+starting ((5, 5), (12, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC5-11.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0043] sds [0.0125, 0.0287]
+finished ((5, 5), (5, 11)) acc 0.711217948718 prop 0.31
+starting ((5, 5), (6, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC15-11.mat
+N = 1000
+chroma training feature ranges means [-0.0027, 0.0020] sds [0.0054, 0.0171]
+finished ((4, 4), (15, 11)) acc 0.719871794872 prop 0.51
+starting ((4, 4), (16, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC9-9.mat
+N = 1000
+chroma training feature ranges means [-0.0036, 0.0034] sds [0.0097, 0.0230]
+finished ((5, 5), (9, 9)) acc 0.711298076923 prop 0.31
+starting ((5, 5), (21, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC9-11.mat
+N = 1000
+chroma training feature ranges means [-0.0034, 0.0030] sds [0.0076, 0.0233]
+finished ((5, 5), (9, 11)) acc 0.718669871795 prop 0.26
+starting ((5, 5), (10, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC10-10.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0032] sds [0.0082, 0.0213]
+finished ((5, 5), (10, 10)) acc 0.711538461538 prop 0.41
+starting ((5, 5), (11, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC7-11.mat
+N = 1000
+chroma training feature ranges means [-0.0037, 0.0034] sds [0.0099, 0.0256]
+finished ((5, 5), (7, 11)) acc 0.720032051282 prop 0.41
+starting ((5, 5), (8, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC5-5.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0082] sds [0.0170, 0.0437]
+finished ((5, 5), (5, 5)) acc 0.701442307692 prop 0.56
+starting ((5, 5), (23, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC17-11.mat
+N = 1000
+chroma training feature ranges means [-0.0023, 0.0019] sds [0.0049, 0.0154]
+finished ((4, 4), (17, 11)) acc 0.722435897436 prop 0.51
+starting ((4, 4), (18, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC12-11.mat
+N = 1000
+chroma training feature ranges means [-0.0029, 0.0023] sds [0.0068, 0.0186]
+finished ((8, 3), (12, 11)) acc 0.735416666667 prop 0.36
+starting ((5, 5), (25, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC22-11.mat
+N = 1000
+chroma training feature ranges means [-0.0038, 0.0016] sds [0.0032, 0.0139]
+finished ((4, 4), (22, 11)) acc 0.711618589744 prop 0.26
+starting ((5, 5), (27, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC8-11.mat
+N = 1000
+chroma training feature ranges means [-0.0035, 0.0037] sds [0.0084, 0.0246]
+finished ((5, 5), (8, 11)) acc 0.714743589744 prop 0.26
+starting ((5, 5), (29, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC21-11.mat
+N = 1000
+chroma training feature ranges means [-0.0042, 0.0018] sds [0.0032, 0.0140]
+finished ((3, 3), (21, 11)) acc 0.725881410256 prop 0.66
+starting ((3, 3), (22, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC12-11.mat
+N = 1000
+chroma training feature ranges means [-0.0029, 0.0023] sds [0.0068, 0.0186]
+finished ((5, 5), (12, 11)) acc 0.732532051282 prop 0.31
+starting ((6, 6), (8, 3))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC14-11.mat
+N = 1000
+chroma training feature ranges means [-0.0045, 0.0025] sds [0.0038, 0.0176]
+finished ((4, 4), (14, 11)) acc 0.71233974359 prop 0.51
+starting ((6, 6), (4, 4))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC6-11.mat
+N = 1000
+chroma training feature ranges means [-0.0040, 0.0047] sds [0.0095, 0.0266]
+finished ((5, 5), (6, 11)) acc 0.718189102564 prop 0.46
+starting ((6, 6), (6, 6))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC25-11.mat
+N = 1000
+chroma training feature ranges means [-0.0047, 0.0016] sds [0.0034, 0.0135]
+finished ((3, 3), (25, 11)) acc 0.72828525641 prop 0.61
+starting ((3, 3), (26, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC3-3.mat
+N = 1000
+chroma training feature ranges means [-0.0107, 0.0108] sds [0.0376, 0.0670]
+finished ((5, 5), (3, 3)) acc 0.692147435897 prop 0.41
+starting ((6, 6), (8, 8))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC11-11.mat
+N = 1000
+chroma training feature ranges means [-0.0030, 0.0025] sds [0.0074, 0.0191]
+finished ((5, 5), (11, 11)) acc 0.716666666667 prop 0.31
+starting ((6, 6), (10, 10))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC13-11.mat
+N = 1000
+chroma training feature ranges means [-0.0026, 0.0021] sds [0.0067, 0.0183]
+finished ((5, 5), (13, 11)) acc 0.728525641026 prop 0.36
+starting ((5, 5), (14, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC14-11.mat
+N = 1000
+chroma training feature ranges means [-0.0045, 0.0025] sds [0.0038, 0.0176]
+finished ((8, 3), (14, 11)) acc 0.739342948718 prop 0.36
+starting ((6, 6), (3, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC18-11.mat
+N = 1000
+chroma training feature ranges means [-0.0039, 0.0017] sds [0.0035, 0.0151]
+finished ((3, 3), (18, 11)) acc 0.719871794872 prop 0.51
+starting ((6, 6), (5, 11))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC15-11.mat
+N = 1000
+chroma training feature ranges means [-0.0027, 0.0020] sds [0.0054, 0.0171]
+finished ((5, 5), (15, 11)) acc 0.734695512821 prop 0.36
+starting ((5, 5), (16, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC20-11.mat
+N = 1000
+chroma training feature ranges means [-0.0040, 0.0016] sds [0.0032, 0.0143]
+finished ((4, 4), (20, 11)) acc 0.719551282051 prop 0.41
+starting ((6, 6), (7, 11))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC4-4.mat
+N = 1000
+chroma training feature ranges means [-0.0108, 0.0109] sds [0.0280, 0.0619]
+finished ((6, 6), (4, 4)) acc 0.703525641026 prop 0.36
+starting ((6, 6), (5, 5))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC6-6.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0075] sds [0.0151, 0.0410]
+finished ((6, 6), (6, 6)) acc 0.714903846154 prop 0.36
+starting ((6, 6), (7, 7))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC8-3.mat
+N = 1000
+chroma training feature ranges means [-0.0079, 0.0084] sds [0.0170, 0.0492]
+finished ((6, 6), (8, 3)) acc 0.709935897436 prop 0.46
+starting ((6, 6), (3, 3))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC10-10.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0032] sds [0.0082, 0.0213]
+finished ((6, 6), (10, 10)) acc 0.718429487179 prop 0.26
+starting ((6, 6), (11, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC26-11.mat
+N = 1000
+chroma training feature ranges means [-0.0044, 0.0016] sds [0.0022, 0.0135]
+finished ((8, 3), (26, 11)) acc 0.742307692308 prop 0.41
+starting ((6, 6), (9, 11))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC8-8.mat
+N = 1000
+chroma training feature ranges means [-0.0052, 0.0048] sds [0.0105, 0.0292]
+finished ((6, 6), (8, 8)) acc 0.717147435897 prop 0.36
+starting ((6, 6), (9, 9))
+Using existing FVs from file ../generated-fv/FV5-5.mat
+N = 1000
+MFCC training feature ranges means [-0.0086, 0.0048] sds [0.0119, 0.0364]
+Using existing FVs from file ../generated-fv/FVC21-11.mat
+N = 1000
+chroma training feature ranges means [-0.0042, 0.0018] sds [0.0032, 0.0140]
+finished ((5, 5), (21, 11)) acc 0.735657051282 prop 0.31
+starting ((5, 5), (22, 11))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC5-5.mat
+N = 1000
+chroma training feature ranges means [-0.0075, 0.0082] sds [0.0170, 0.0437]
+finished ((6, 6), (5, 5)) acc 0.700961538462 prop 0.26
+starting ((6, 6), (11, 11))
+Using existing FVs from file ../generated-fv/FV4-4.mat
+N = 1000
+MFCC training feature ranges means [-0.0159, 0.0076] sds [0.0173, 0.0542]
+Using existing FVs from file ../generated-fv/FVC16-11.mat
+N = 1000
+chroma training feature ranges means [-0.0024, 0.0018] sds [0.0049, 0.0167]
+finished ((4, 4), (16, 11)) acc 0.71875 prop 0.41
+starting ((6, 6), (13, 11))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC3-3.mat
+N = 1000
+chroma training feature ranges means [-0.0107, 0.0108] sds [0.0376, 0.0670]
+finished ((6, 6), (3, 3)) acc 0.705608974359 prop 0.16
+starting ((6, 6), (15, 11))
+Using existing FVs from file ../generated-fv/FV6-6.mat
+N = 1000
+MFCC training feature ranges means [-0.0079, 0.0046] sds [0.0110, 0.0350]
+Using existing FVs from file ../generated-fv/FVC7-7.mat
+N = 1000
+chroma training feature ranges means [-0.0056, 0.0056] sds [0.0120, 0.0306]
+finished ((6, 6), (7, 7)) acc 0.718669871795 prop 0.26
+starting ((6, 6), (17, 11))
+Using existing FVs from file ../generated-fv/FV3-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0201, 0.0090] sds [0.0202, 0.0614]
+Using existing FVs from file ../generated-fv/FVC24-11.mat
+N = 1000
+chroma training feature ranges means [-0.0048, 0.0014] sds [0.0033, 0.0138]
+finished ((3, 3), (24, 11)) acc 0.733733974359 prop 0.46
+starting ((6, 6), (19, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC24-11.mat
+N = 1000
+chroma training feature ranges means [-0.0048, 0.0014] sds [0.0033, 0.0138]
+finished ((8, 3), (24, 11)) acc 0.745032051282 prop 0.51
+starting ((6, 6), (21, 11))
+Using existing FVs from file ../generated-fv/FV8-3.mat
+N = 1000
+MFCC training feature ranges means [-0.0119, 0.0060] sds [0.0119, 0.0429]
+Using existing FVs from file ../generated-fv/FVC29-11.mat
+N = 1000
+chroma training feature ranges means [-0.0041, 0.0015] sds [0.0021, 0.0130]
+finished ((8, 3), (29, 11)) acc 0.746073717949 prop 0.56
+starting ((8, 3), (30, 11))

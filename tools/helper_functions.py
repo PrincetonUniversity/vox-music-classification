@@ -183,3 +183,8 @@ def plot_confusion_matrix(cm, title='Confusion matrix', cmap=plt.cm.ocean):
     plot_matrix(cm, title)
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
+
+def order(x):
+    p = [x[0] for x in sorted(list(enumerate(x)), key=lambda tup:tup[1])]
+    p.reverse()
+    return p

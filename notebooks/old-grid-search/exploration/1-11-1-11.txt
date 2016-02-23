@@ -1,0 +1,10 @@
+Using existing FVs from file ../generated-fv/FV1-11.mat
+N = 1000
+MFCC training feature ranges means [-0.0110, 0.0008] sds [0.0207, 0.0472]
+Using existing FVs from file ../generated-fv/FVC1-11.mat
+N = 1000
+chroma training feature ranges means [-0.0066, 0.0013] sds [0.0315, 0.0551]
+rf-depth 50 limit 1500 C 1000 score 0.6176470588235294
+rf-depth 40 limit 1000 C 1000 score 0.593939393939394
+rf-depth 40 limit 1500 C 1000 score 0.6060606060606061
+avg cv 0.6058823529411765
