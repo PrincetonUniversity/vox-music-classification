@@ -66,6 +66,7 @@ print('Running params for machine {}:\n{}'.format(machine, l))
 
 def try_config(params):
     print('starting', params)
+    sys.stdout.flush()
     mfcc, chroma = params
     M, Y = load_all_fv(*mfcc)
     C, Y = load_chroma_fv(*chroma)
@@ -85,7 +86,8 @@ def try_config(params):
             strikes += 1
             if strikes == 2: break
     print('finished', params, 'acc', best_acc, 'prop', best_prop)
+    sys.stdout.flush()
 
 # should be run on cycles
-with multiprocessing.Pool(48) as p:
+with multiprocessing.Pool(40) as p:
     p.map(try_config, l)

@@ -1,0 +1,1 @@
+cat *  | grep finished | sort -k 7 -g
