@@ -34,8 +34,7 @@ def cvFolds(X, Y):
     skf = StratifiedKFold(Y, n_folds=8, shuffle=True,
                           random_state=1)
     sets = [(X[train], X[test], Y[train], Y[test]) for train, test in skf]
-    with multiprocessing.Pool(8) as p:
-        return p.map(rfit, sets)
+    return [rfit(t) for t in sets]
 
 def eval_fold(tup):
     (prop, C), (p, trX, teX, trY, teY) = tup
@@ -55,22 +54,38 @@ def run_rf(folds, prop):
             best_params = C
     return prop, best_acc
 
-num_clusters = int(sys.argv[1])
-exemplar = int(sys.argv[2])
+def to_try(x): return [(8,3)] + list((x, x) for x in range(3, 12)) + list((x, 11) for x in range(3, x))
+l = list(itertools.product(to_try(21), to_try(31)))
+assert(len(l) % 4 == 0)
 
-print('printing rf data for {} clusters {} exemplar'.format(
-    num_clusters, exemplar))
+machine = int(sys.argv[1])
 
+l = list(chunks(l, len(l) // 4))[machine]
 
-M, Y = load_all_fv(num_clusters, exemplar)
-C, Y = load_chroma_fv(num_clusters, exemplar)
-X = np.concatenate((M, C), axis=1)
-cv = cvFolds(X, Y)
-def run(prop):
-    print('running', prop)
-    ret = run_rf(cv, prop)
-    print('finished', prop, 'acc', ret[1])
-    return ret
+print('Running params for machine {}:\n{}'.format(machine, l))
 
-with multiprocessing.Pool(20) as p:
-    print(p.map(run, np.arange(0.01, 1, 0.05)))
+def try_config(params):
+    print('starting', params)
+    mfcc, chroma = params
+    M, Y = load_all_fv(*mfcc)
+    C, Y = load_chroma_fv(*chroma)
+    X = np.concatenate((M, C), axis=1)
+    cv = cvFolds(X, Y)
+
+    best_acc = -np.inf
+    best_prop = 0
+    strikes = 0
+    for prop in np.arange(0.01, 1, 0.05):
+        acc = run_rf(cv, prop)[1]
+        if acc > best_acc:
+            best_acc = acc
+            best_prop = prop
+            strikes = 0
+        else:
+            strikes += 1
+            if strikes == 2: break
+    print('finished', params, 'acc', best_acc, 'prop', best_prop)
+
+# should be run on cycles
+with multiprocessing.Pool(48) as p:
+    p.map(try_config, l)
