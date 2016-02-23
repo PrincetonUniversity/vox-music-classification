@@ -10,36 +10,53 @@
 \maketitle
 
 \section{Abstract}
-
- blah blah \cite{davis2012fractional}.
- 
+blah blah
  \section{Introduction}
 
-A basic problem in the field of music is to label a song into a {\em genre} (jazz, rock, country, classical etc.).
-In general, a given song can have multiple genres, and two people may disagree on whether a song $s$ can be labeled with a given genre $g$.
-Furthermore, there are a huge number of genres and some are very similar to others.
-Thus, the most general version of the {\em genre classification problem} which intuitively asks for a complete list of genres given a song is hard to formalize
-and solve.
-In this paper, we will be discussing a simpler version of this problem which we call {\em Genre-Classify} that asks for a single genre label given a song.
-Our given data set contains 1000 different songs, which we shall call our song set $S$.
-Each song $s \in S$ is exactly 30 seconds long and is labeled with a single genre label 
-$g(s) \in G = \{ \textit{blues, classical, country, disco, hip-hop, jazz, metal, pop, reggae, rock} \}$.
-There are exactly 100 songs of each genre.
-Our problem can be formally stated as follows:
-Given a random subset of pairs $P = \{(s, g(s)) | s \in T \}$ where $T \subsetneq S$, derive a function $g': T' = (S - T) \rightarrow G$ 
-that attempts to maximize the proportion of correct guesses $g'(s) = g(s), s \in T'$.
-In our experiments we let our {\em training set} $T$ be picked as a random subset of size $0.8 |S|$,
-and test the models $g'$ we derive on our {\em test set} $T'$.
+A basic problem in supervised machine learning for audio data is to label a song into a genre such as blues, classical, country, disco, hip-hop, jazz, metal, pop, reggae, rock.
+This problem is difficult because the representation of sound may translate into these genres in a nontrivial fashion.
+Furthermore, a given song can have multiple genres - two people may disagree on its labelling even if they agree on a large set of other songs. This implies that even in nature the learning process for genre classification leads to inconsistent results. Thus, for a given labelling, it is difficult to expect there to be an arbitrarily accurate classifier.
+Finally, any given pair of genres differ in amount of variation, with some being easier to distinguish than others.
 
-One problem in using algorithms on the music data, is the dimensionality of the data (if the song was interpreted as a vector of bits for instance).
-One way to reduce the dimensionality of the problem would be to take the first few components of a PCA; 
-but better methods are possible when we have a labelled data set \cite{WellingNote}.
-One such method is to encode musical {\em features} in a vector using the Fisher Linear Discriminant Analysis (Fisher-LDA) method \cite{WellingNote}.
-This method is used on {\em timbre-related} musical features in Enrique et al. \cite{ERLGRR}.
-They obtain a $4.09\%$ probability of error when they use the MFCC and Fisher-LDA.
-A later paper by Chang et al. \cite{CJI10} uses both short and long term features of music and the {\em compressive sampling} technique to keep
-the dimensionality low.
-They obtain $92.7\%$ accuracy when they use multiple short and long term features.
+We will explore a variety of supervised learning methods and evaluate their performance for the GTZAN dataset (TODO cite a ref).
+
+\section{Data representation}
+
+We work with a small version of the dataset, with 1000 songs. Each song is labelled with one of the aforementioned 10 genres.
+
+The features available in the genres are (TODO, make a latex list and describe dimensionality). Don't mention fisher vectors here. No need to explain in-depth, just cite the pdf from the assignment.
+
+TODO describe need for padding, why justified (can help distinction compared to chopping)
+
+\section{Previous Work}
+
+The nature of the sound data includes many features which are not predictive of the labels - there is noise in the information-theoretic sense. Secondly, there are variations for songs within genres whose differences are present in the feature vectors for the individual clips, but these types of more subtle musical notes do not interest us.
+
+An often-applied dimensionality reduction technique is PCA; however, its unsupervised nature makes the reduction uninformed with respect to predictive features \cite{WellingNote}.
+
+Techniques in the aformentioned source are used on {\em timbre-related} musical features in Enrique et al. \cite{ERLGRR}. They obtain a $4.09\%$  error with MFCC and Fisher-LDA. A later paper by Chang et al. \cite{CJI10} uses both short and long term features of music and the ompressive sampling technique to keep
+the dimensionality low. They obtain $92.7\%$ accuracy on a different dataset. Note that these papers do not use the same GTZAN source, so their performance metrics do not directly carry over.
+
+\section{Exploratory Feature Analysis}
+
+Note from now on the labels are named according to their index in alphabetical order.
+
+\subsection{MFCC}
+
+The matrix representation for MFCC is large and inconvenient. Upon recommendation by the TAs (with their scripts as well), we used the Fisher vector (FV) representation for this data set. The representation takes two inputs: the number of clusters to use for its GMM model and the exemplar size to encode temporal info. As these parameters increase, the number of features in the FV does as well. When referring to a FV representation, we will mark these parameters in that order.
+
+TODO add an image of the 
+
+
+\section{Methods and Performance}
+
+\subsection{first item of long list}
+
+\section{Conclusion}
+
+TODO restate best method
+
+TODO cite ipython (jupyter), acknowledge cycles @ princeton fro computing, cite sklearn, matlab fv scripts from TAs
 
 \bibliographystyle{acm}
 \bibliography{bibliography}
