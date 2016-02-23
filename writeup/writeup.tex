@@ -23,46 +23,20 @@ The top-performing method was an mSVM trained on the most informative 36\% of th
 
 A basic problem in supervised machine learning for audio data is to label a song into a genre such as blues, classical, country, disco, hip-hop, jazz, metal, pop, reggae, rock.
 This problem is difficult because the representation of sound may translate into these genres in a nontrivial fashion.
-Furthermore, a given song can have multiple genres - two people may disagree on its labelling even if they agree on a large set of other songs. This implies that even in nature the learning process for genre classification leads to inconsistent results. Thus, for a given labelling, it is difficult to expect there to be an arbitrarily accurate classifier.
+
 Finally, any given pair of genres differ in amount of variation, with some being easier to distinguish than others.
 
 We will explore a variety of supervised learning methods and evaluate their performance for the GTZAN dataset \cite{TC}.
 
 \section{Data representation}
 
-We work with a small version of the dataset, with 1000 songs, 100 for each genre. Each song is labelled with one of the aforementioned 10 genres.
-
-\begin{center}
-\begin{tabular}{ l | l }
-  {\bf feature} & {\bf dimension}\\
-  eng & $(1 \times f)$   \\
-  chroma & $(12 \times f)$   \\
-  t & $(1 \times f)$   \\
-  keystrength & $(12 \times f)$   \\
-  brightness & $(1 \times f)$   \\
-  zerocross & $(1 \times f)$   \\
-  roughness & $(1 \times f)$   \\
-  inharmonic & $(1 \times f)$ \\
-  hcdf & $(1 \times f)$  \\
-  mfcc & $(32 \times f)$ \\
-\end{tabular}
-\end{center}
-
-Though each of the songs was approximately 30 seconds in length, the precise number of frames in each song differed. Each was padded to $f = 1222$, the maximum number.
-
-Thus, we had to either pad or chop the feature matrices to make them of equal dimension
-for all songs.
-We chose to pad the feature matrices of shorter songs with 0s as opposed to chopping longer songs
-so that we would not lose any of the information in the final frames of longer songs.
+We work with a small version of the dataset, with 1000 songs, 100 for each genre. Each song is labelled with one of the aforementioned 10 genres, and has a variety of features, which may be vectors or matrices of doubles, all with the same number of columns - though each of the songs was approximately 30 seconds in length, the precise number of frames in each song differed. Each was padded to $1222$, the maximum number.
 
 \section{Previous Work}
 
 The nature of the sound data includes many features which are not predictive of the labels - there is noise in the information-theoretic sense. Secondly, there are variations for songs within genres whose differences are present in the feature vectors for the individual clips, but these types of more subtle musical notes do not interest us.
 
 An often-applied dimensionality reduction technique is PCA; however, its unsupervised nature makes the reduction uninformed with respect to predictive features \cite{WellingNote}.
-
-Techniques in the aforementioned source are used on {\em timbre-related} musical features in Enrique et al. \cite{ERLGRR}. They obtain a $4.09\%$  error with \texttt{mfcc} and Fisher-LDA. A later paper by Chang et al. \cite{CJI10} uses both short and long term features of music and the compressive sampling technique to keep
-the dimensionality low. They obtain $92.7\%$ accuracy on a different dataset. Note that these papers do not use the same GTZAN source, so their performance metrics do not directly carry over.
 
 \section{Exploratory Feature Analysis}
 
@@ -88,24 +62,18 @@ The FV computation seemed to exhibit a sort of periodicity. We can re-shuffle th
     \end{minipage}
     
     \label{fig:fv33}
-    \caption{Here we compare the FV for \texttt{mfcc} on two different labels. Note that for every outer period (of which there are 6) there exists an internal periodicity of 5 in this example, where bands form for every item.}
+    \caption{Here we compare the FV(3,3) for \texttt{mfcc} on two different labels. Note that for every outer period (of which there are 6) there exists an internal periodicity of 5 in this example, where bands form for every item. The above example with \texttt{mfcc} FV(3,3) has equivalent performance in an example classifier - RBF-kernel based SVM with regularization constant 1, with 0.69 accuracy on a holdout test set for both the unmodified and reduced data.}
 \end{figure}
 
-The above example with \texttt{mfcc} FV(3,3) has equivalent performance in an example classifier - RBF-kernel based SVM with regularization constant 1, with 0.69 accuracy on a holdout test set for both the unmodified and reduced data.
+This periodicity extends to other parameters and \texttt{chroma} as well - see for example the FV(8,5) case in the Appendix, figure (\ref{fig:fv85}). In fact, 15 random pairs from the set of parameters $[10]\times[10]$ were examined (where $[n]$ is the set of integers $1, ..., n$) visually confirm an outer period of size $2C$ and inner period of size $t=2n-2(n\mod 2)-1$ for FV($C$,$n$).
 
-This periodicity extends to other parameters as well - see for example the FV(8,5) case in the Appendix, figure (\ref{fig:fv85}). In addition, this holds for other types of features, not just \texttt{mfcc}.
+Upon recommendation from a TA, we abandoned the periodicity approach because we were losing valuable information in the case where the ``bands" were not nearly identical in size. However, this still points to an interesting direction in data representation in the future that may be more amenable to higher accuracies.
 
-In fact, 15 random pairs from the set of parameters $[10]\times[10]$ were examined (where $[n]$ is the set of integers $1, ..., n$) visually confirm an outer period of size $2C$ and inner period of size $t=2n-2(n\mod 2)-1$ for FV($C$,$n$).
-
-Upon recommendation from a TA, we abandoned the periodicity approach because we were losing valuable information in the case where the ``bands" were not nearly identical in size.
-
-However, this still points to an interesting direction in data representation in the future that may be more amenable to higher accuracies. One representation that was attempted (but it did not improve accuracy) was to keep the averages, and then append the differences of $t-1$ values in each period from the average of the entire $t$-sized period (this was done instead of just appending the average values to maintain the same number of degrees of freedom). There is room in the future to explore this representation.
-
-Further attempts at dimensionality reduction included PCA, which did not demonstrate much potential - no single feature contributed to much of the explained variance, indicating that the high-dimensional space that the FV occupies is saturated by the data - there's no low-dimensional plane that the data lie on.
+Further attempts at dimensionality reduction included PCA. No single feature contributed to much of the explained variance, indicating that the high-dimensional space that the FV occupies is saturated by the data - there's no low-dimensional plane that the data lie on.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{pca-mfcc8-5.png}
+    \includegraphics[scale=0.3]{pca-mfcc8-5.png}
     \label{fig:pca}
     \caption{Note that the most significant dimension only explains less than 0.1 percent of the variance
     in the data, and that the drop off is quite gradual.
@@ -116,17 +84,16 @@ Further attempts at dimensionality reduction included PCA, which did not demonst
 
 \subsection{Chroma}
 
-Chroma also has a matrix representation. The FV-based analysis for \texttt{mfcc} was replicated for chroma features, yielding similar results.
-
-Another line of analysis explored for chroma, but was not integrated into the classifiers, were kernel-based methods for imaging \ref{fig:chromakernels}.
+Chroma also has a matrix representation. The FV-based analysis for \texttt{mfcc} was replicated for chroma features, yielding similar results. Another line of analysis explored for chroma, but was not integrated into the classifiers, were kernel-based methods for imaging (Appendix \ref{fig:chromakernels}).
 
 \subsection{Already-vectorized features}
 
-Other features were already in vector format, each of which had manageable sizes, and thus did not require any dimensionality reduction for tractability. Of these features, the inharmonic contained NaN values and thus was not considered further.
+Other features were already in vector format and thus did not require any dimensionality reduction for tractability. Of these features, the \texttt{inharmonic} contained NaN values and thus was not considered further.
 
 To quickly estimate how helpful these features would be in discriminating genre,
 we ran random forest classifiers with each of them using depth 20 decision trees and 200 learners. The trees use the Gini coefficient for splitting and no pruning
 
+TODO: transpose this table. (make horizontal)
 \begin{center}
 \begin{tabular}{l|c}
     {\bf Feature}   &   {\bf Accuracy} \\
@@ -184,33 +151,6 @@ We split the dataset into a 7:1 train:test holdout. On the training set, we use 
 Both the \texttt{mfcc} and chroma softmax classifiers show a large drop from training to test accuracy, indicating a bias problem. This needs to be solved by a simpler model - because we used cross-validation to select the regularization parameter and there was still overfitting, we need to more intelligently select our features to encourage sparsity in our estimators. Unfortunately, this means turning to other classifiers - while the $\ell_2$ penalty was used, there was no support for the $\ell_1$ as a direct measure to alleviate this problem.
 
 Luckily, it seems that chroma and \texttt{mfcc} have complimentary confusion matrices, which makes us optimistic about combining the two.
-
-\subsubsection{Random Forest}
-
-Code: \texttt{fv-randomforest.ipynb}. After trying boosted decisions stumps (see section \ref{boostedstumps} in the Appendix), it became clear that decision trees needed some depth to identify songs well. We switched using random forests to classify music instead - by enabling a more expressive decision tree, the weak learner can actually weakly specialize for a certain set of examples. Then the ensemble can use their specialization to have higher accuracy.
-
-We ran 8-fold cross validated testing on the \texttt{mfcc} FV$(3, 3)$ vectors and optimized
-the hyper-parameters {\em max-depth} of trees and number of {\em learners}.
-The best accuracy we got was $65.7\%$ and the parameter values were $\textit{max-depth} = 20$  and $\textit{learners} = 900$.
-
-As mentioned in the Already-vectorized features section,
-we also performed random forest classification using some of the other features.
-These classifications were done solely for the purpose of getting a rough estimate
-of how well the features helped classify genre so that only the good ones could
-be used in our meta-classification algorithm.
-Therefore, the accuracies in the table in that section were obtained using
-a one-shot 90-10 training-test split.
-None of these accuracies broke even 40\%, suggesting to us that using any of the features
-alone could not improve our overall accuracy.
-
-\subsubsection{Nearest Neighbors}
-Code: \texttt{fv-nearestneighbors.ipynb}.
-Randomized forest attempts to make multiple feature-by-feature decisions to conclude,
-while mSVM tries to use linear separators.
-We used $k$-nearest-neighbors as a supervised learner that would work well if the FV(3, 3) data was clustered.
-Once again, we used 8-fold stratified cross validation.
-We stuck to Euclidean distance, and optimized the hyperparameter $k$ in the range $1 < k < 20$.
-The best accuracy we got was $65.5\%$ for $k = 14$.
 
 \subsubsection{Multi-class SVM}
 
@@ -282,7 +222,7 @@ Note that FV parameter selection is done outside the cv loop. A nested cv is not
 
 \subsubsection{Other methods}
 
-Please see the Appendix for other methods, including majority voting over different features (Section \ref{majority-features}) and Convolutional Neural Networks (Section \ref{cnn}). Unfortunately, none of these performed better than the above-mentioned classifiers.
+Please see the Appendix for other methods, including majority voting over different features (Section \ref{majority-features}) and Convolutional Neural Networks (Section \ref{cnn}). More successful attempts include Random Forests (\ref{rf}) and KNN (\ref{knn}). Unfortunately, none of these performed better than the above mSVM.
 
 \section{Conclusion}
 
@@ -351,7 +291,7 @@ the dimension.}
 
     Chroma seems to be defined by long streaks of high values in otherwise sparse data. Two kernels which accentuate these effects would be the ``line kernel" - which is just a matrix with horizontal band of ones, and matrix that detects the beginning of such lines - ``chroma break" uses $\mat{0&0&-1\\0&0&+1\\0&0&-1}$
 
-\subsection{Unsuccessful Classification Attempts}
+\subsection{Other Classification Attempts}
 
 \subsubsection{Boosted Decision Stumps}\label{boostedstumps}
 
@@ -438,6 +378,34 @@ and thus essentially regressed into one-vs-rest mSVM, but performed worse than t
 The performance only worsened when we tried to impose
 that our decision tree made partitions for which both sides of the 
 partition had more than one genre where possible.
+
+
+\subsubsection{Random Forest}\label{rf}
+
+Code: \texttt{fv-randomforest.ipynb}. After trying boosted decisions stumps (see section \ref{boostedstumps} in the Appendix), it became clear that decision trees needed some depth to identify songs well. We switched using random forests to classify music instead - by enabling a more expressive decision tree, the weak learner can actually weakly specialize for a certain set of examples. Then the ensemble can use their specialization to have higher accuracy.
+
+We ran 8-fold cross validated testing on the \texttt{mfcc} FV$(3, 3)$ vectors and optimized
+the hyper-parameters {\em max-depth} of trees and number of {\em learners}.
+The best accuracy we got was $65.7\%$ and the parameter values were $\textit{max-depth} = 20$  and $\textit{learners} = 900$.
+
+As mentioned in the Already-vectorized features section,
+we also performed random forest classification using some of the other features.
+These classifications were done solely for the purpose of getting a rough estimate
+of how well the features helped classify genre so that only the good ones could
+be used in our meta-classification algorithm.
+Therefore, the accuracies in the table in that section were obtained using
+a one-shot 90-10 training-test split.
+None of these accuracies broke even 40\%, suggesting to us that using any of the features
+alone could not improve our overall accuracy.
+
+\subsubsection{Nearest Neighbors} \label{knn}
+Code: \texttt{fv-nearestneighbors.ipynb}.
+Randomized forest attempts to make multiple feature-by-feature decisions to conclude,
+while mSVM tries to use linear separators.
+We used $k$-nearest-neighbors as a supervised learner that would work well if the FV(3, 3) data was clustered.
+Once again, we used 8-fold stratified cross validation.
+We stuck to Euclidean distance, and optimized the hyperparameter $k$ in the range $1 < k < 20$.
+The best accuracy we got was $65.5\%$ for $k = 14$.
 
 
 \end{document}
