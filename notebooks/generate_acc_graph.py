@@ -48,8 +48,7 @@ def run_rf(folds, prop):
     best_acc, best_params = -np.inf, None
     #trX, teX = whiten(trX), whiten(teX, source=trX)
     for i, C in enumerate(Cs):
-        with multiprocessing.Pool(8) as p:
-            scores = p.map(eval_fold, zip(itertools.repeat((prop, C)), folds))
+        scores = [eval_fold(x) for x in zip(itertools.repeat((prop, C)), folds)]
         score = np.average(scores)
         if score > best_acc:
             best_acc = score
@@ -67,5 +66,5 @@ C, Y = load_chroma_fv(num_clusters, exemplar)
 X = np.concatenate((M, C), axis=1)
 cv = cvFolds(X, Y)
 def run(prop): return run_rf(cv, prop)
-with multiprocessing.Pool(6) as p:
+with multiprocessing.Pool(20) as p:
     print(p.map(run, np.arange(0.01, 1, 0.05)))
