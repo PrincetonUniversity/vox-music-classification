@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[9pt]{article}
 
 \input{defs}
 \usepackage{graphicx}
@@ -6,42 +6,52 @@
 \usepackage{fullpage}
 
 
-\title{Music Genre Classification\\\large COS424}
-\author{Vladimir Feinberg, Siddhartha Jayanti}
-\date{9 February 2016}
+%\title{Music Genre Classification\\\large COS424}
+%\author{Vladimir Feinberg, Siddhartha Jayanti}
+%\date{9 February 2016}
 
 \begin{document}
-\maketitle
+\begin{center}
+{\large Music Genre Classification - COS 424}
+
+{ Vladimir Feinberg, Siddhartha Jayanti}
+\end{center}
 
 \begin{abstract}
-
 We explore a variety of supervised learning approaches for genre classification on an excerpt of the GTZAN dataset \cite{TC}. Methods explored are {\em Softmax, SVM, mSVM, Nearest Neighbors, Random Forest, Adaboosted Decision Stumps, Voting}, and a novel {\em Binary-Search mSVM} algorithm.
 The top-performing method was an mSVM trained on the most informative 36\% of the \texttt{mfcc} and \texttt{chroma} features as determined by a Random Forest, a strategy used by \cite{vox}. This achieved 75.1\% with the features in Fisher vector representation, the hyperparameters of which where selected with a partial grid search.
-
 \end{abstract}
- \section{Introduction}
+
+\vspace{-0.2in}
+
+ \section{Introduction \& Data Representation}
+\vspace{-0.1in}
 
 A basic problem in supervised machine learning for audio data is to label a song into a genre such as blues, classical, country, disco, hip-hop, jazz, metal, pop, reggae, rock.
 This problem is difficult because the representation of sound may translate into these genres in a nontrivial fashion.
-
 Finally, any given pair of genres differ in amount of variation, with some being easier to distinguish than others.
-
 We will explore a variety of supervised learning methods and evaluate their performance for the GTZAN dataset \cite{TC}.
 
-\section{Data representation}
+%\vspace{-0.1in}
+%\section{Data representation}
+%\vspace{-0.1in}
 
 We work with a small version of the dataset, with 1000 songs, 100 for each genre. Each song is labelled with one of the aforementioned 10 genres, and has a variety of features, which may be vectors or matrices of doubles, all with the same number of columns - though each of the songs was approximately 30 seconds in length, the precise number of frames in each song differed. Each was padded to $1222$, the maximum number.
 
+\vspace{-0.1in}
 \section{Previous Work}
+\vspace{-0.1in}
 
 The nature of the sound data includes many features which are not predictive of the labels - there is noise in the information-theoretic sense. Secondly, there are variations for songs within genres whose differences are present in the feature vectors for the individual clips, but these types of more subtle musical notes do not interest us.
-
 An often-applied dimensionality reduction technique is PCA; however, its unsupervised nature makes the reduction uninformed with respect to predictive features \cite{WellingNote}.
 
+\vspace{-0.1in}
 \section{Exploratory Feature Analysis}
+\vspace{-0.1in}
 
 Note from now on the labels are named according to their index in alphabetical order. For code that generated these files, see \texttt{exploratory-feature-analysis.ipynb}.
 
+\vspace{-0.1in}
 \subsection{MFCC}
 
 The matrix representation for \texttt{mfcc} is large and inconvenient. Upon recommendation by the TAs (with their scripts as well), we used the Fisher vector (FV) representation for this data set. The representation takes two inputs: the number of clusters to use for its GMM model and the exemplar size to encode temporal info. As these parameters increase, the number of features in the FV does as well. When referring to a FV representation, we will mark these parameters in that order.
@@ -93,24 +103,30 @@ Other features were already in vector format and thus did not require any dimens
 To quickly estimate how helpful these features would be in discriminating genre,
 we ran random forest classifiers with each of them using depth 20 decision trees and 200 learners. The trees use the Gini coefficient for splitting and no pruning
 
-TODO: transpose this table. (make horizontal)
-\begin{center}
-\begin{tabular}{l|c}
-    {\bf Feature}   &   {\bf Accuracy} \\
-\texttt{eng} & 0.381651 \\
-\texttt{t} & 0.113942 \\
-\texttt{brightness} & 0.303045 \\
-\texttt{zerocross} & 0.332292 \\
-\texttt{roughness} & 0.389904 \\
-\texttt{hcdf} & 0.328526 \\
-\texttt{mfcc} & 0.641907 \\
-\texttt{chroma} & 0.507372 \\
+\begin{tabular}{l | l | l | l | l | l | l | l | l}
+{\bf Feature}	& \texttt{eng}	& \texttt{t}	& \texttt{brightness}	& \texttt{zerocross} 	& \texttt{roughness}	& \texttt{hcdf}	& \texttt{mfcc}	& \texttt{chroma} \\
+{\bf Accuracy}	& 0.381651	& 0.113942	& 0.303045		& 0.332292		& 0.389904		& 0.328526	& 0.641907	& 0.507372
 \end{tabular}
-\end{center}
+
+%TODO: transpose this table. (make horizontal)
+%\begin{center}
+%\begin{tabular}{l|c}
+%    {\bf Feature}   &   {\bf Accuracy} \\
+%\texttt{eng} & 0.381651 \\
+%\texttt{t} & 0.113942 \\
+%\texttt{brightness} & 0.303045 \\
+%\texttt{zerocross} & 0.332292 \\
+%\texttt{roughness} & 0.389904 \\
+%\texttt{hcdf} & 0.328526 \\
+%\texttt{mfcc} & 0.641907 \\
+%\texttt{chroma} & 0.507372 \\
+%\end{tabular}
+%\end{center}
 
 We notice that the other features are not as helpful as \texttt{chroma} or \texttt{mfcc}, so we focus on these two instead.
 
 \section{Methods and Performance}
+\vspace{-0.1in}
 
 \subsection{Operational notes}
 
@@ -135,12 +151,12 @@ We split the dataset into a 7:1 train:test holdout. On the training set, we use 
 \begin{figure}[H]
     \centering
     
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{softmax-mfcc.png}
         \caption{\texttt{mfcc} holdout accuracy was 0.658, its training accuracy was 0.906}
     \end{minipage}
     \hfill
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{softmax-chroma.png}
         \caption{Chroma holdout accuracy was 0.533, training was 0.864.}
     \end{minipage}
@@ -149,8 +165,7 @@ We split the dataset into a 7:1 train:test holdout. On the training set, we use 
 \end{figure}
 
 Both the \texttt{mfcc} and chroma softmax classifiers show a large drop from training to test accuracy, indicating a bias problem. This needs to be solved by a simpler model - because we used cross-validation to select the regularization parameter and there was still overfitting, we need to more intelligently select our features to encourage sparsity in our estimators. Unfortunately, this means turning to other classifiers - while the $\ell_2$ penalty was used, there was no support for the $\ell_1$ as a direct measure to alleviate this problem.
-
-Luckily, it seems that chroma and \texttt{mfcc} have complimentary confusion matrices, which makes us optimistic about combining the two.
+Luckily, it seems that \texttt{chroma} and \texttt{mfcc} have complimentary confusion matrices, which makes us optimistic about combining the two.
 
 \subsubsection{Multi-class SVM}
 
@@ -163,17 +178,20 @@ Kernels considered were RBF, polynomial $\kappa(\Tx_1, \Tx_2)=\pa{\gamma\Inner{\
 \begin{figure}[H]
     \centering
     
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{msvm-mfcc3-3.png}
-        \caption{For \texttt{mfcc}, the optimal setting $C=100$, ovo, and polynomial kernel had 0.674 accuracy.}
+        %\caption{}
     \end{minipage}
     \hfill
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{msvm-chroma3-3.png}
-        \caption{For \texttt{chroma}, the optimal $C=1000$, ovo, and polynomial kernel had 0.475 accuracy.}
+        %\caption{}
     \end{minipage}
     \label{fig:mSVM}
 \end{figure}
+
+For \texttt{mfcc}, the optimal setting $C=100$, ovo, and polynomial kernel had 0.674 accuracy.
+For \texttt{chroma}, the optimal $C=1000$, ovo, and polynomial kernel had 0.475 accuracy.
 
 The grid search ranges proved sufficient since none of the selected values were at the extremes. We note as in SoftMax the confusion matrices (From a 7:1 fold) are complimentary.
 
@@ -186,11 +204,11 @@ At this point, for faster iteration, we only considered the grid with ovo and po
 \begin{figure}[H]
     \centering
     
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{RF-cutoff3-3.png}
     \end{minipage}
     \hfill
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{RF-cutoff8-8.png}
     \end{minipage}
     \label{fig:rf-cutoff}
@@ -207,11 +225,11 @@ The top configuration (at the time of the writing of this report) found was \tex
 \begin{figure}[H]
     \centering
     
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{final-confusion.png}
     \end{minipage}
     \hfill
-    \begin{minipage}[b]{0.4\textwidth}
+    \begin{minipage}[b]{0.5\textwidth}
         \includegraphics[width=\textwidth]{prf.png}
     \end{minipage}
     \label{fig:finalconf}
@@ -225,6 +243,7 @@ Note that FV parameter selection is done outside the cv loop. A nested cv is not
 Please see the Appendix for other methods, including majority voting over different features (Section \ref{majority-features}) and Convolutional Neural Networks (Section \ref{cnn}). More successful attempts include Random Forests (\ref{rf}) and KNN (\ref{knn}). Unfortunately, none of these performed better than the above mSVM.
 
 \section{Conclusion}
+\vspace{-0.1in}
 
 We have applied a variety of methods to the genre classification problem. The top performer was RF-based feature selection for mSVMs on FV-encoded \texttt{mfcc} and \texttt{chroma} data.
 
